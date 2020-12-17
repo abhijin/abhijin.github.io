@@ -1,0 +1,291 @@
+# jemdoc: menu{MENU}{pubs.html}
+# jemdoc: title{Abhijin Adiga}
+# jemdoc: nodefaultcss
+# jemdoc: addcss{style.css}
+# jemdoc: notime
+
+== 2020
+##
+- *Networked experiments and modeling for producing collective identity in a group of human subjects using an iterative abduction framework*\n
+/V Cedeno-Mieles, Z Hu, X Deng, Y Ren, X Deng, A Adiga et al.,/
+Social Network Analysis and Mining
+##
+- *Boolean games: Inferring agents’ goals using taxation queries*\n
+/A Adiga, S Kraus, and S S Ravi,/
+AAMAS (Extended abstract)
+##
+- *[papers/aaai20_pmdnf.pdf Bounds and Complexity Results for Learning Coalition-Based Interaction Functions in Networked Social Systems]*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, Richard E. Stearns and A. Vullikanti,/
+AAAI
+== 2019
+##
+- *[papers/wsc19_validating.pdf Validating agent-based models of large networked systems]*\n
+/A Adiga, C Barrett, S Eubank, C J Kuhlman, M V Marathe, H Mortveit, S S Ravi, D J Rosenkrantz, R E Stearns, S Swarup, and A K Vullikanti,/
+WSC
+##
+- *On the modeling and agent-based simulation of a cooperative group anagram games*\n
+/Z Hu, X Deng, A Adiga, G Korkmaz, C J Kuhlman, M Dustin, M V Marathe, S S Ravi, Y Ren, V Cedeno-Mieles, S Ekanayake, B J Goode, N Ramakrishnan, P Sarif, and N Self,/
+WSC
+##
+- *Predicting suitable habitat of an invasive weed /Parthenium hysterophorus/ under future climate scenarios in Chitwan Annapurna Landscape*\n
+/S Maharjan, B B Shrestha, M D Joshi, A Devkota, R Muniappan, A Adiga, and P K Jha,/
+J. Mountain Science
+##
+- *[papers/prsb19_assessing.pdf Assessing the Multi-pathway Threat from an Invasive Agricultural Pest: /Tuta absoluta/ in Asia.]*\n
+/J McNitt, Y Y Chungbaek, H Mortveit, M Madhav, R C Mateus, D Nicolas, B Thierry, M Rangaswamy, and A Adiga,/
+Proc. R. Soc. B [papers/prsb19_assessing_supplementary.pdf \[supplement\]]
+##
+- *[papers/icml19_pac.pdf PAC learnability of node functions in networked dynamical systems]*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, and A. Vullikanti,/
+ICML
+##
+- *[papers/croppro_2019.pdf Modeling commodity flow in the context of invasive species spread: Study of /Tuta absoluta/ in Nepal]*\n
+/S. Venkatramanan, S. Wu, B. Shi, A. Marathe, M. Marathe, S. Eubank, L. Sah, A. Giri, L. Colavito, K. Nitin, V. Sridhar, R. Asokan, R. Muniappan, G. Norton, and A. Adiga,/
+Crop Protection [papers/croppro_2019_supp.pdf \[supplement\]]
+##
+- *[papers/NS19_adiga.pdf Inferring dynamical systems through active queries]*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, and R. E. Stearns,/
+SIAM Network Science
+##
+- *[papers/siamns19_foodflows.pdf Understanding the role of seasonal food trade networks in invasive species spread]*\n
+/A. Adiga, S. Venkatramanan, S. Wu, M. Marathe, S. Eubank, L. P. Sah, A. P. Giri, L. A. Colavito, and R. Muniappan,/
+SIAM Network Science
+##
+- *Mechanistic and data-driven agent-based models to explain human behavior in online networked group anagram games* \n
+/V Cedeno-Mieles, Z Hu, X Deng, Y Ren, X Deng, A Adiga et al.,/
+ASONAM
+
+== 2018
+##
+- *[papers/cn19_reliability.pdf Using network reliability to understand international food trade dynamics]*\n
+/M. Nath, S. Venkatramanan, B. Kaperick, S. Eubank, M. V. Marathe, A. Marathe, and A. Adiga,/
+International Workshop on Complex Networks and their Applications (CN)
+##
+- *Using active queries to learn local stochastic behaviors in social networks*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, and R. E. Stearns,/
+International Workshop on Complex Networks and their Applications (CN)
+##
+- *Graphical dynamical systems and their applications to bio-social systems*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, H. S. Mortveit, S. S. Ravi, and A. Vullikanti,/
+International Journal of Advances in Engineering Sciences and Applied Mathematics (Special Issue on Theory and Application of Network Algorithms in Biology)
+##
+- *[papers/cikm18_inferring.pdf Inferring probabilistic contagion models over networks using active queries]* \n
+/A. Adiga, V. Cedeno-Mieles, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, and R. E. Stearns,/
+CIKM
+##
+- *[papers/comsoc18_inferring.pdf Inferring users’ choice functions in networked social systems through active queries]* \n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, and R. E. Stearns,/
+COMSOC
+##
+- *Generative modeling of human behavior and social interactions using abductive analysis* \n
+/Y. Ren, V. Cedeno-Mieles, Z. Hu, X. Deng, A. Adiga et al.,/
+ASONAM
+##
+- *Sublinear approximation algorithms for boxicity and related problems* \n 
+/A. Adiga, J. Babu, and L. S. Chandran,/
+Discrete Applied Mathematics
+##
+- *Disparities in spread and control of influenza in slums of Delhi: findings from an agent-based modelling study* \n 
+/A. Adiga, S. Chu, S. Eubank, C. J. Kuhlman, B. Lewis, A. Marathe, M. Marathe, E. K. Nordberg, S. Swarup, A. Vullikanti, et al.,/
+BMJ Open
+##
+- *[papers/faw_egypt.pdf Pest risk assessment of the Fall Armyworm, Spodoptera frugiperda in Egypt]*\n
+/E. A. Heinrichs, J. Sidhu, R. Muniappan, A. Fayad, A. Adiga, A. Marathe, J. McNitt, and S. Venkatramanan,/
+USAID report
+##
+- *[papers/aaai18_learning.pdf Learning the behavior of a dynamical system via a "20 questions" approach]* \n 
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz, and R. E. Stearns,/
+AAAI
+##
+== 2017
+##
+- *[papers/waoa17_kserver.pdf A k-median based online algorithm for the stochastic k-server problem]* \n 
+/A. Adiga, D. Friedman, and S. Raghvendra,/
+WAOA
+##
+- *[papers/bigdata17_nepal.pdf Towards robust models of food flows and their role in invasive species spread]* \n 
+/S. Venkatramanan, S. Wu, B. Shi, A. Marathe, M. Marathe, S. Eubank, L. P. Sah, A. P. Giri, L. A. Colavito, K. S. Nitin, V. Sridhar, R. Asokan, R. Muniappan, G. Norton, and A. Adiga,/
+IEEE Big Data
+##
+- *[https://www.researchgate.net/profile/Antonio_Biondi2/publication/316351782_From_the_Western_Palaearctic_region_to_beyond_Tuta_absoluta_10_years_after_invading_Europe/links/5919593e4585152e19a24e55/From-the-Western-Palaearctic-region-to-beyond-Tuta-absoluta-10-years-after-invading-Europe.pdf From the Western Palaearctic region to beyond: /Tuta absoluta/ 10 years after invading Europe]*\n
+/M. R. Campos, A. Biondi, A. Adiga, R. N. C. Guedes and N. Desneux,/ 
+Journal of Pest Science
+##
+- *GENEUS & Application in Pest Diffusion* \n 
+/S. Wu, H. Mortveit, A. Adiga and S. Venkatramanan,/
+Workshop on Uncertainty Quantification and Data-Driven Modeling, Austin
+##
+- *Hybrid Models for Ecological and Anthropogenic Drivers of Pest Invasion: Case Study of Tuta absoluta in Nepal* \n
+/S. Venkatramanan, S. Wu, B. Shi, A. Marathe, S. Eubank, M. Marathe and A. Adiga,/
+International Conference on Biodiversity, Climate Change Assessment and
+Impacts in Livelihood, Kathmandu
+##
+- *Use of CLIMEX to Identify the Potential Areas for Spread of
+Tuta absoluta under Climate Change* \n
+/V. Sridhar, K. S. Nitin, R. Asokan and A. Adiga,/
+International Conference on Biodiversity, Climate Change Assessment and
+Impacts in Livelihood, Kathmandu
+##
+
+== 2016
+- *[papers/naco_activity.pdf Activity in boolean networks]*\n
+/A. Adiga, H. Galyean, C. J. Kuhlman, M. Levet, H. S. Mortveit and S. Wu,/
+Natural Computing (NACO)
+
+- *[papers/tkde_group.pdf Near-optimal algorithms for controlling propagation at group scale on networks]*\n
+/Y. Zhang, A. Adiga, S. Saha, A. Vullikanti and B. A. Prakash,/
+IEEE Transactions on Knowledge and Data Engineering (TKDE)
+
+- *[papers/modeling_invasive_species.pdf Towards an integrated network-based approach to modeling the dynamics of invasive plant pests]*\n
+/S. Venkatramanan, A. Adiga, A. Marathe, S. Eubank, M. Marathe and R. Muniappan,/
+DSFEW Workshop, KDD [papers/poster_KDD_DSFEW.pdf Poster]
+
+- *[papers/tcs_inferring.pdf Inferring local transition functions of discrete dynamical systems from observations of system behavior]*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz and R. E. Stearns,/
+Theoretical Computer Science
+
+- *[papers/infocom16_temporalvacc.pdf To delay or not: Temporal vaccination games on networks]*\n
+/A. Adiga, S. Venkatramanan and A. Vullikanti,/
+INFOCOM
+##
+- *[papers/aaai16_budget_temporalvacc.pdf Temporal vaccination games under resource constraints ]*\n
+/A. Adiga and V. S. A. Kumar,/
+AAAI
+##
+##
+== 2015
+- *[papers/csssa15.pdf Can social distancing compensate for the unvaccinated? ]*\n
+/A. Adiga, S. Chu, A. Marathe and V. S. A. Kumar,/ 
+CSSSA
+##
+- *[papers/icdm15_groupvacc.pdf Controlling propagation at group scale on networks ]*\n
+/Y. Zhang, A. Adiga, A. Vullikanti and B. A. Prakash,/
+ICDM
+##
+- *[papers/ciaa15_complexity.pdf Complexity of inferring local transition functions of discrete dynamical systems ]*\n
+/A. Adiga, C. J. Kuhlman, M. V. Marathe, S. S. Ravi, D. J. Rosenkrantz and
+R. E. Stearns,/ 
+CIAA
+##
+- *[papers/ic2s215_synthetic.pdf Synthetic populations for epidemic modeling ]*\n
+/A. Adiga, R. Beckman, K. Bisset, et al./
+IC2S2
+##
+- *[papers/automata15_activity.pdf Network structure and activity in Boolean networks ]*\n
+/A. Adiga, H. Galyean, C. J. Kuhlman, M. Levet, H. S. Mortveit and S. Wu,/
+Automata
+##
+- *[papers/automata15_block_sequential.pdf Effect of graph structure on the limit sets of threshold dynamical systems ]*\n
+/A. Adiga, C. J. Kuhlman, H. S. Mortveit and S. Wu,/ 
+Automata
+##
+- *[papers/sdm15_reducing.pdf Approximation algorithms for reducing the spectral radius to control epidemic spread. ]* \n
+/S. Saha, A. Adiga, B. A. Prakash and A. K. S. Vullikanti,/ 
+SDM
+##
+##
+== 2014
+- *[papers/jair14_sensitivity.pdf Sensitivity of diffusion dynamics to network uncertainty ]*\n
+/A. Adiga, C. Kuhlman, H. S. Mortveit and A. K. S. Vullikanti,/ 
+Journal of Artificial Intelligence Research, 2014
+##
+- *[papers/sidma14_cubic.pdf Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions ]*\n 
+/A. Adiga and L. S. Chandran,/  
+SIAM Journal on Discrete Mathematics, 2014
+##
+- *[papers/dam14_circular.pdf A constant factor approximation algorithm for boxicity of circular arc graphs ]*\n 
+/A. Adiga, J. Babu and L. S. Chandran,/ 
+Discrete Applied Mathematics, 2014
+##
+- *Limit cycle structure for dynamic bi-threshold systems* \n
+/S. Wu, A. Adiga and H. S. Mortveit,/ 
+Theoretical Computer Science, 2014
+##
+- *Lower bounds for boxicity* \n
+/A. Adiga, L. Chandran and N. Sivadasan,/
+Combinatorica, 2014
+##
+- *[https://arxiv.org/abs/1105.5225 Cubicity, degeneracy and crossing number]* \n
+/A. Adiga, L. S. Chandran and R. Mathew,/
+European Journal of Combinatorics, 2014
+##
+- *[http://ai2-s2-pdfs.s3.amazonaws.com/fd60/bad570b2be2a6cf46a38e1198292eda497e9.pdf Equilibria in epidemic containment games]* \n
+/S. Saha, A. Adiga and A. K. S. Vullikanti,/
+AAAI
+##
+##
+== 2013
+- *[papers/cabm13_modeling.pdf Modeling urban transportation in the aftermath of a nuclear disaster: The role of human behavioral responses]* \n
+/A. Adiga, M. Marathe, H. Mortveit, S. Wu and S. Swarup,/
+The Conference on Agent-Based Modeling in Transportation Planning and Operations, Blacksburg, VA, 2013
+##
+- *Subgraph enumeration in dynamic graphs* \n
+/A. Adiga, A. K. S. Vullikanti and D. Wiggins,/
+ICDM
+##
+- *[papers/pkdd13_kcore.pdf How robust is the core of a network? ]*\n
+/A. Adiga and A. K. S. Vullikanti,/
+ECML/PKDD
+##
+- *[papers/aaai13_sensitivity.pdf Sensitivity of diffusion dynamics to network uncertainty ]*\n
+/A. Adiga, C. Kuhlman, H. S. Mortveit and A. K. S. Vullikanti,/
+AAAI
+##
+##
+== 2012
+- *[papers/main13_route.pdf Route stability in large-scale transportation models*]\n
+/A. Adiga, H. S. Mortveit and S. Wu,/
+Workshop on Multiagent Interaction Networks, AAMAS
+##
+- *[papers/socg12_cubic.pdf Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions ]*\n
+/A. Adiga and L. S. Chandran,/
+SoCG
+##
+- *Polynomial time and parameterized approximation algorithms for boxicity* \n
+/A. Adiga, J. Babu and L. S. Chandran,/
+IPEC
+##
+##
+== 2011
+- *[papers/sidma11_boxicity.pdf Boxicity and poset dimension ]*\n
+/A. Adiga, D. Bhowmick and L. S. Chandran,/
+SIAM Journal on Discrete Mathematics, 2011
+##
+- *Cubicity, degeneracy and crossing number* \n
+/A. Adiga, L. S. Chandran and R. Mathew,/
+FSTTCS
+##
+- *A constant factor approximation algorithm for boxicity of circular arc graphs* \n
+/A. Adiga, J. Babu and L. Chandran,/
+WADS
+##
+##
+== 2010 and earlier
+- *The hardness of approximating the boxicity, cubicity and threshold dimension of a graph* \n
+/A. Adiga, D. Bhowmick and L. Sunil Chandran,/
+Discrete Applied Mathematics, 2010
+##
+- *[papers/cubicity_interval_graphs.pdf Cubicity of interval graphs and the claw number]*\n
+/A. Adiga and L. S. Chandran,/
+Journal of Graph Theory, 2010
+##
+- *Parameterized algorithms for boxicity* \n
+/A. Adiga, R. Chitnis and S. Saurabh,/
+ISAAC
+##
+- *Boxicity and poset dimension* \n
+/A. Adiga, D. Bhowmick and L. Chandran,/
+COCOON
+##
+- *Cubicity of threshold graphs* \n
+/A. Adiga,/ 
+Discrete Mathematics, 2009
+##
+- *Cubicity of interval graphs and the claw number* \n
+/A. Adiga and L. S. Chandran,/ 
+EuroComb'09
+##
+- *A design and implementation of orthonormal symmetric wavelet transform using PRCC filter banks* \n
+/A. Adiga, K. Ramakrishnan and B. Adiga,/
+ICASSP'03
+##

@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: title{Abhijin Adiga}
+# jemdoc: nodefaultcss
+# jemdoc: addcss{style.css}
+# jemdoc: notime
+= Abhijin Adiga 
+
+~~~
+{}{img_left}{abhijin_0474_crop3.jpg}{Abhijin UVA}{275px}{}{} 
+Welcome to my home page! \n
+\n
+I am a research assistant professor at the [https://biocomplexity.virginia.edu/nssac
+Network Systems Science and Advanced Computing (NSSAC)] division,
+[https://biocomplexity.virginia.edu/ Biocomplexity Institute and Initiative], University of Virginia. Broadly,
+my research areas are combinatorics, design and analysis of algorithms,
+computational modeling and algorithmic game theory. For the past few years,
+my main focus has been the study of propagation processes over
+networks, also referred to as network dynamics. My interests lie in 
+the theoretical foundations of these processes as well as applying them to
+study complex phenomena such as invasive species spread, infectious
+diseases and other socio-technical systems.
+~~~
+
+=== Contact: 
+Biocomplexity Institute and Initiative\n
+University of Virginia\n
+2903D Commerce Street\n
+Blacksburg, VA 24060 \n
+*\[first name\]* at *virginia* dot *edu*
