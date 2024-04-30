@@ -1,0 +1,56 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    /*margin:10px;*/
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ca2121;
+    font-weight: 100;
+}
+
+p, div {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+date {
+    font-weight:900;
+}
+
+heavy {
+    font-weight:900;
+}
+
+a {
+    color: #000091;
+}
+
+/* https://stackoverflow.com/questions/7759229/remove-space-between-paragraph-and-unordered-list */
+p + ul {
+    margin-top: -12px;
+}
+
+/* https://stackoverflow.com/questions/33911049/btn-xs-no-longer-a-valid-option-in-bootstrap-4 */
+.btn-group-xs > .btn, .btn-xs {
+  padding: .3rem .25rem;
+  font-size: .875rem;
+  line-height: 0.8;
+  border-radius: .2rem;
+}
