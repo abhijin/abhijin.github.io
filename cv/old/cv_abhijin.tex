@@ -1,0 +1,798 @@
+\documentclass[margin,10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Common preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE
+%% \usepackage{fullpage}
+% FONTS
+\usepackage{url} % enhanced version of computer modern
+\urlstyle{same}
+\usepackage{lmodern} % enhanced version of computer modern
+\usepackage[T1]{fontenc} % for hyphenated characters
+\usepackage{amssymb}
+\usepackage{mathtools} % contains amsmath which comes with align
+\usepackage{amsthm}
+\usepackage{microtype} % some compression
+%%
+%% REFERENCING DOES NOT WORK WITH BIBENTRY PACKAGE
+\usepackage{natbib}
+\usepackage[colorlinks=true,pdfborder={0 0
+0},citecolor=magenta,linkcolor=magenta]{hyperref}
+\newcommand{\tuta}{\emph{T.~absoluta}}
+\newcommand{\tutafull}{\emph{Tuta~absoluta}}
+
+\usepackage{bibentry}
+% LISTS
+\usepackage{enumerate}
+% ROMAN NUMERALS
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% preamble ends
+%% from now on, draft specific
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\textwidth}{5.1in} % Text width of the document
+\usepackage{etoolbox}
+\usepackage{multicol}
+%% adding footer
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+%%\fancypagestyle{mypagestyle}{%
+%%\fancyhf{}%
+%%\fancyfoot[C]{\textcolor{red}{\thepage}}%
+%%}
+\rfoot{\textcolor{gray}{Updated on \today}}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\pagenumbering{gobble}
+\newtoggle{visa}
+\newtoggle{compact}
+%% \toggletrue{visa} % comment this if you want normal resume
+%% \toggletrue{compact} % comment this if you want normal resume
+
+\begin{document}
+\thispagestyle{fancy}
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+%\moveleft.5\hoffset\centerline{\large\bf Abhijin Adiga\hfill} % Your name at the top
+\moveleft1.0\hoffset\centerline{\large\bf Abhijin Adiga\hfill} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+%%  
+%% \section{OBJECTIVE}  
+%% 
+%% A position in the field of computers with special interests in business applications programming, information processing, and management systems. 
+%% 
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{\textnormal{\textsc{Contact Information}}}
+Network Systems Science and Advanced Computing (NSSAC)\\
+Biocomplexity Institute and Initiative\hfill \texttt{email:}
+abhijin@virginia.edu\hspace{0mm}\mbox{}\\
+University of Virginia\hfill \texttt{phone:}
+\texttt{+}1 540 204 6679\hspace{6.5mm}\mbox{}\\
+\url{https://abhijin.github.io}
+%%
+\section{\textnormal{\textsc{Current\,\,\,\, Position}}}
+\textbf{Research Assistant Professor} \hfill 2016 -- present\\
+Network Systems Science and Advanced Computing (NSSAC)\\
+University of Virginia
+%%%%
+\section{\textnormal{\textsc{Research interests and Focus}}}
+Broadly, my interests are in network science, algorithm design,
+combinatorics, machine learning and game theory. My current focus is on studying diffusion
+processes using network dynamical systems and machine learning with
+application to the spread of invasive species, infectious diseases, and
+other socio-technical phenomena. There are three main thrusts to my
+research.  Through large collaborative efforts, I design and analyze data- and
+process-driven models using domain-specific knowledge. Secondly, I strive
+to advance the theoretical foundations of such models to create robust
+models that can be applied in data-poor environments. Thirdly, I develop
+efficient practical solutions with provable guarantees for various
+computational problems that arise in the target applications.\\
+
+\section{\textnormal{\textsc{Publications summary}}}
+Journals: 23\\
+Conference proceedings: 33\\
+Workshops/posters/abstract: 14\\
+
+\section{\textnormal{\textsc{Grants summary}}}
+PI: USAID \$1,100,000; USDA \$400,000\\
+Co-PI: Two USAID grants \$170,000
+
+\section{\textnormal{\textsc{Impact}}}
+\begin{enumerate}[$\circ$]
+\item USAID and USDA invasive species projects featured in Agrilinks,
+Wisconsin Farmer, Charlottesville News, Knowable Magazine, and Virginia
+Tech news.
+\item USAID project mentioned in the USAID Center for Emerging Threats of
+Crops Notice of Funding Opportunity as a project that has informed the US
+of emerging threats and helped prepare for impending invasion.
+\item Supported BII's COVID-19 response efforts in (i)~network construction,
+analysis, and validation and (ii)~simulation analytics. 
+\item Invited talks in Egypt and Indian Council of Agricultural Research,
+India. Talks in various conferences in national and international venues on
+invasive species modeling: Ethiopia, India, International Congress of
+Entomology (Orlando), Symposium on Integrated Pest Management (Washington
+DC).
+\item Webinar: New Approaches to Control the South American Tomato Leaf
+Miner \emph{Tuta absoluta}, April 2018
+\end{enumerate}
+
+\section{\textnormal{\textsc{Mentorship summary}}}
+\begin{enumerate}[$\circ$]
+    \item Co-advisor for one Masters student (Thesis accepted) (1 paper
+    submitted)
+    \item Part of thesis committee for three PhD students. I advised on
+    several parts of the thesis of two of them.
+    \item Research assistants (PhD 1 and Masters students 4)
+    \item Undergraduates: 9
+    \item High-school: 1
+\end{enumerate}
+
+\section{\textnormal{\textsc{Service summary}}}
+\begin{enumerate}[$\circ$]
+    \item Professional service: 
+    \begin{itemize}
+        \item Grant review panel (NSF~1, USDA~2, FONDECYT Chile~1)
+        \item Senior TPC (IJCAI'21) and TPC (8)
+        \item Reviewed papers for a number of journals and conferences
+        spanning multiple domains such as Nature comm. Bio., Journal of
+        Pest Science, JPDC, ACM Trans. on Algo, Journal of Royal Soc.
+        Interface, etc.
+    \end{itemize}
+    \item Biocomplexity Institute \& Initiative:
+    \begin{itemize}
+        \item Student and postdoc hiring committee in NSSAC 2018--2020.
+        \item Student and postdoc hiring committee in NDSSL 2017--2018.
+\item Member of graduate students admission team in NDSSL for the Fall'16
+admissions
+    \end{itemize}
+\end{enumerate}
+
+\section{\textnormal{\textsc{Programmatic contributions}}}
+\begin{enumerate}[$\circ$]
+\item As PI and Co-PI of the USAID and USDA projects, I have lead the
+research in the area of invasive species modeling. This includes
+collaborating with people from multiple domains and countries (France,
+Senegal, India, Nepal, Bangladesh, and US), presenting in annual meetings,
+data exploration, providing content for news reports, mentoring students,
+and preparing annual reports. It has resulted in publications in top venues
+including Proceedings of the Royal Society Biology, Journal of Pest
+Science, Journal of Crop Protection and IEEE BigData conference.
+\item COVID-19 response: I led the modeling and development of certain
+modules in the synthetic population generation pipeline. This work has
+contributed to the generation of US domestic networks as well as global
+networks. Also, I developed a network analysis tool set, which is used to
+validate our networks and for comparative analysis. These tools have been
+applied (i)~to provide weekly inputs to various agencies during certain
+periods of the year 2020-21, and (ii)~in manuscripts submitted/under
+preparation.
+\item DARPA NGS2: I contributed significantly to the theoretical aspects of
+this project. Our work on inferring graphical dynamical systems has
+resulted in five publications in top AI venues and several workshop
+presentations.
+\item Fall armyworm in Egypt: In a collaborative effort, I led the modeling
+effort to assess the possible spread of Fall armyworm in Egypt. This was
+funded by USAID mission in Egypt.
+\item Participated in a number of proposal writing efforts every year.
+\end{enumerate}
+
+\section{\textnormal{\textsc{Software and Datasets}}}
+\begin{enumerate}[$\circ$]
+\item Multi-pathway simulator: I have led the development of a simulation
+framework to study the multi-pathway spread of invasive species. It
+consists of a simulator of a generic network diffusion process implemented
+using vectorized methods in Python, a multi-scale temporal network module,
+implementation of algorithms for calibration and interventions, modules for
+model space exploration using computing clusters, regression tests, and various
+visualization tools. Domestic trade networks have been constructed for
+several countries using multiple datasets and expert knowledge. The
+resulting simulation framework has been applied in multiple studies. The
+simulator and synthetic datasets are publicly available and are constantly
+updated.
+\item High-resolution synthetic population models and datasets: Our group
+(NSSAC) has been synthesizing highly-detailed population models from
+multiple data sources for more than~15 years. Over the years, these
+datasets have been applied in epidemiology (COVID-19, Ebola, influenza,
+malaria, etc.), transportation, disaster preparedness, resilience and
+sustainability. I have played a prominent part in the Biocomplexity
+Institute's COVID-19 response on the modeling and development of the
+synthetic population networks. I co-led the design and implementation of
+the physical contact network construction module. I applied concepts from
+geometric intersection graphs and parallelization to speed up the network
+generation. I have also developed a tool for analyzing the generated
+networks. It has been regularly applied to compare different networks,
+visualize, and validate our models. This software has been well integrated
+in to our synthetic population pipeline.
+\item Deep learning and remote sensing: We have developed a convolutional
+neural network (CNN) framework to predict the distribution of invasive
+plants using multispectral satellite images and field survey data.  Our
+robust training and evaluation framework employs multiple hold-out approach
+for model selection and transfer learning to cope with data challenges
+imposed by field survey and imagery constraints.  Multi-spectral
+remote-sensed images from multiple satellites were used in this study. We
+have developed the framework for optical calibration, sharpening, and
+interpolation of the images towards feature vector extraction. Popular
+deep neural networks had to be adapted for satellite images. Transfer
+learning approaches were applied. The framework is applied to study the
+distribution of multiple invasive plants in the Chitwan-Annapurna Landscape
+of Nepal, a biodiversity hotspot.
+\end{enumerate}
+
+\section{\textnormal{\textsc{Transdisciplinary team science}}}
+My work involves leading and being part of large teams of researchers from
+different fields.  As PI of two USAID and USDA projects, I have led BII’s
+research in the area of invasive species modeling. As PI, I have initiated
+multiple projects collaborating with researchers from several countries
+(US, France, Senegal, India, Nepal, and Bangladesh). Example projects
+include (i)~modeling the spread of a pest of the tomato plant, \tutafull{} in
+Southeast Asia and West Africa involving entomologists, economists,
+modelers and computer scientists and (ii)~mapping invasive plants in Nepal
+using remote-sensing and machine learning involving botanists and
+geoinformation specialists. I play a major role is several large team projects in the
+Biocomplexity Institute as well. These include studies related to
+computational epidemiology such as COVID-19 response, disaster
+preparedness, and computational social science.
+
+\section{\textnormal{\textsc{Selected recent publications}}}
+\nobibliography*
+\begin{enumerate}[$\circ$]
+\item \bibentry{hoops2021wsc}
+\item \bibentry{adiga2020booleangames}
+\item \bibentry{adiga2020bounds}
+\item \bibentry{mcnitt2019assessing}
+\item \bibentry{venkatramanan2020modeling}
+\item \bibentry{adiga2019pac}
+\item \bibentry{adiga2018learning}
+\item \bibentry{campos2017western}
+\item \bibentry{adiga2017inferring}
+\end{enumerate}
+
+
+\clearpage
+
+
+\end{resume}
+
+\clearpage
+\moveleft1.0\hoffset\centerline{\large\bf Details\hfill} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+\begin{resume}
+%%%%
+\section{\textnormal{\textsc{Education}}}
+\textbf{PhD:} \hfill August 2006 -- March 2011\\
+Dept. of Computer Science and Automation\\
+Indian Institute of Science, Bangalore, India\\ 
+%% Adviser: {Dr. L Sunil Chandran}\\
+%% {Thesis}: On Dimensional Parameters of Graphs and Posets\\
+~\\
+\noindent\textbf{Master of Science (Engg):} \hfill August 2001 -- August 2003\\
+Dept. of Electrical Engineering,\\
+Indian Institute of Science, Bangalore, India\\
+%% Adviser: Dr. K R Ramakrishnan\\
+%% {Thesis:} Cyclic Multirate Structures Based on Symmetric-Periodic
+%% Sequences\\
+~\\
+\noindent\textbf{Bachelor of Engineering:} \hfill 1996 -- 2000\\
+Bangalore University (B.M.S. College of Engineering)\\
+Telecommunication Engineering
+%%%%%%
+\section{\textnormal{\textsc{Work\,\,\,\, Experience}}} 
+{Research Assistant Professor} \hfill Jul 2016 -- Oct 2018\\
+Senior Research Associate \hfill May 2014 -- Jul 2016\\
+Postdoctoral Associate \hfill October 2011 -- May 2014\\
+Network Dynamics and Simulation Science Laboratory\\
+Biocomplexity Institute of Virginia Tech\\
+~~~\\
+Research Associate \hfill March 2011 -- September 2011\\
+Dept. of Computer Science and Automation, IISc \\
+~~~\\
+{Beceem Communications Pvt Ltd}\hfill August 2004 -- July 2006\\
+Algorithm design for WiMax (802.16) \\
+~~~\\
+Project Associate \hfill October 2003 -- April 2004\\ 
+Project Associate\hfill October 2000 -- August 2001\\ 
+Dept. of Electrical Engineering, IISc \\
+%% Worked under Dr. P S Sastry on temporal data-mining \\
+%% Worked under Dr. K R Ramakrishnan on source \& channel coding and Advanced
+%% Encryption Standard (Rijndael)
+%%%%%%
+\section{\textnormal{\textsc{Grants}}}
+\begin{enumerate}[$\circ$]
+\item USDA NIFA Foundational and Applied Science Program: \emph{Network
+Models of Food Systems and their Application to Invasive Species Spread} \\
+Amount:~\$400,000; Duration: Sep'19--Aug'23\\
+Role: PI
+\item USAID IPM Innovation Labs: \emph{Assessment of Invasive Alien Species Distribution in the Chitwan-Annapurna-Landscape (CHAL) Region, Nepal}\\
+Amount:~\$150,000; Duration: Jan'19--Nov'21\\
+Role: Co-PI
+\item USAID Egypt Mission: \emph{Pest Risk Assessment of the Fall Armyworm,
+Spodoptera frugiperda in Egypt}\\ Amount:~\$18,000; Duration:
+Oct'17--Dec'17\\ Role: Co PI
+%\item
+%\noindent\textbf{Pending}\\
+\item USAID IPM Innovation Labs: \emph{A High-resolution Interaction Based
+Approach to Modeling the Spread of Agricultural Invasive Species}\\
+Amount:~\$1,000,000 (\$800,000 for Virginia Tech); Duration: Oct'15--Nov'21\\
+Role: PI
+\end{enumerate}
+\clearpage
+
+\noindent
+\textbf{Current efforts/pending:}\\
+\begin{enumerate}[$\circ$]
+\item USAID Feed the Future Innovation Lab for Current and Emerging Threats
+to Crops Catalog of Federal Domestic Assistance, 2021.
+\item NSF HDR Institute: Data Science for Transportation, Epidemiology and
+Power (DataSTEP), 2021 (submitted).
+\item NSF AI Institute: Agricultural AI for Transforming
+Workforce and Decision Support (AgAID), 2021.
+\end{enumerate}
+%%%%%%%%%%%%
+\section{\textnormal{\textsc{Awards}}}
+\begin{enumerate}[$\circ$]
+   \item ``DSFEW Early Career Researchers Travel Fund'', KDD 2016.
+\item ``Honorable Mention For Outstanding Novelty of Research
+Question'' award for the paper ``Sensitivity of Diffusion Dynamics to
+Network Uncertainty'' in AAAI'13.
+\item Infosys Fellow: awarded to select
+PhD candidates in IISc by Infosys Technologies Ltd. 
+\item Secured All India Rank of 34 in GATE 2000 (EC), a national level
+entrance exam for post graduate studies.
+\item Ranked 7th in Bangalore University in Telecommunication Engg. (Year 2000).
+\end{enumerate}
+%%
+%%
+\section{\textnormal{\textsc{News}}}
+\begin{enumerate}[$\circ$]
+\item 
+\href{https://knowablemagazine.org/article/technology/2020/virtual-agents-change-how-computers-are-mapping-covid19s-future}{Virtual
+agents of change: How computers are mapping Covid-19’s future}, Knowable
+Magazine, 2020.
+\item
+\href{https://www.agrilinks.org/post/q-why-mapping-spread-invasive-species-above-so-important-prevention-efforts-below}{Agrilinks
+article on USAID Invasive Species project; 2020.}
+\item
+\href{https://www.cbs19news.com/story/41855331/grant-to-help-model-potential-arrival-of-invasive-species-and-protect-tomato-crops?utm_source=cmpgn_news&utm_medium=email&utm_campaign=vtUnirelNewsDailyCMP_031320-f%2Fs}{Charlottesville
+News (CBS19) announcing the USDA FACT project; 2019.}
+\item
+\href{https://vtnews.vt.edu/articles/2018/03/outreach-ipmegyptfaw.html}{Virginia
+Tech provides key intel in U.S. and Egyptian-led battle against a major
+pest; 2018}
+\item
+\href{https://vtnews.vt.edu/articles/2018/02/outreach-ipmnexus.html}{Countries
+get heads up about leafminer invasion thanks to Virginia Tech} (also picked
+up by Wisconsin Farmer and Agrilinks)
+\item
+\href{https://vtnews.vt.edu/articles/2016/05/outreach-oiredinnovationlabawards.html}{Virginia Tech awards more than \$11 million to help feed people in
+developing countries}
+\item
+\href{https://www.bi.vt.edu/ndssl/news/virginia-tech-research-team-fights-the-spread-of-invasive-pests}{Virginia
+Tech Research Team Fights the Spread of Invasive Pests}
+\end{enumerate}
+%%
+\section{\textnormal{\textsc{Selected Talks}}} 
+\begin{enumerate}[1.]
+    \item Boolean Games: Inferring Agents' Goals Using Taxation Queries,
+    International Joint Conference on Artificial Intelligence (IJCAI'20)
+    (virtual), January 2021.
+    \item A Deep Learning Framework for Invasive Species Mapping using
+    High-Resolution Satellite Imagery, ASPRS 2020 Annual Conference (virtual), June 2020.
+    \item (\textbf{Invited}) Network Dynamical Systems: Theory and
+    Applications, Indian Institute of Technology, Hyderabad, India,
+    November 2019.
+    \item Modern AI Techniques to Understand the Spatio-temporal Spread of
+    Invasive Alien Plants: Approaches and Challenges, International Plant
+    Protection Congress, Hyderabad, India, November 2019.
+    \item Modeling the multi-pathway spread of agricultural pests using
+    network science, International Plant Protection Congress, Hyderabad,
+    India, November 2019.
+    \item Understanding the Role of Seasonal Food Trade Networks in Invasive
+Species Spread, SIAM Network Science, Snowbird, Utah,
+    May 2019.
+    \item (\textbf{Invited}) How to stop an epidemic? Networked dynamical
+    systems, games and near-optimal algorithms, Indian Institute of
+    Technology, Dharwad, October 2018.
+    \item (\textbf{Invited}) Multi-pathway models to assess the threat of
+    invasive species spread, Indian Agricultural Research Institute, Delhi,
+    October 2018.
+    \item Multi-pathway models to understand the spread and impact of
+    \emph{Tuta
+    absoluta}, International Conference on Biological Control (ICBC),
+    September 2018.
+    \item (\textbf{Webinar}) New Approaches to Control the South American Tomato
+   Leaf Miner \emph{Tuta absoluta}, April 2018
+   \item Monitoring the spread of {\it Tuta absoluta} using a
+    multi-layered network based modeling framework, \emph{9th International
+    IPM Symposium}, Baltimore, March 2018
+    \item (\textbf{Invited}) Modeling the Spread of Fall Armyworm,
+    \emph{Fall Armyworm Workshop}, Adis Ababa, 2017
+    \item (\textbf{Invited}) Understanding the role of human-mediated
+    pathways in pest spread: Case study of \emph{Tuta absoluta}, \emph{12th
+    Arab Congress of Plant Protection}, Hurghada, 2017
+   \item Monitoring spread of T. absoluta using a multi-layered network
+   based modeling framework, \emph{Symposium on Global Spread and Management
+   of the South American Tomato Leafminer, Tuta absoluta. International
+Congress of Entomology}, Orlando, 2016
+\item (\textbf{Invited}) How to stop an epidemic?  Games and near-optimal
+algorithms, \emph{Dept. of Computer Science and Automation, Indian
+Institute of Science}, Bangalore, 2014
+\item (\textbf{Invited}) Sensitivity of Dynamical Properties to Network
+Uncertainty, \emph{Dept. of Computer Science and Automation, Indian
+Institute of Science}, Bangalore, 2013
+\end{enumerate}
+%%
+\iftoggle{compact}{
+\section{\textnormal{\textsc{Selected publications}}} 
+}{
+\section{\textnormal{\textsc{Publications}}} 
+}
+\noindent\textbf{Journal articles}\\
+\begin{enumerate}[1.]%%[$\circ$]
+    \item \bibentry{cedeno2020networked}
+    \item \bibentry{poudel2020predicting}
+\item \bibentry{de2021thermal}
+\item \bibentry{mcnitt2019assessing}
+\item \bibentry{maharjan2019predicting}
+\item \bibentry{venkatramanan2020modeling}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2019graphical}
+}
+\item \bibentry{adiga2018disparities}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2018sublinear}
+}
+\item \bibentry{campos2017western}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2017inferring}
+\item \bibentry{adiga2017activity}
+}
+\item \bibentry{zhang2016near}
+\item \bibentry{adiga2014sensitivity}
+\item \bibentry{adiga2014representing}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2014constant}
+\item \bibentry{wu2014limit}
+}
+\item \bibentry{adiga2014lower}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2014cubicity}
+}
+\item \bibentry{adiga2011boxicity}
+\item \bibentry{adiga2010hardness}
+\item \bibentry{adiga2010cubicity}
+\item \bibentry{adiga2009cubicityThreshold}
+\end{enumerate}
+\clearpage
+\noindent\textbf{Refereed conference proceedings}\\
+\begin{enumerate}[1.]%%[$\circ$]
+\item \bibentry{hoops2021wsc}
+\item \bibentry{adiga2020booleangames}
+\item \bibentry{adiga2020bounds}
+\item \bibentry{adiga2019validating}
+\item \bibentry{hu2019modeling}
+\item \bibentry{adiga2019pac}
+\iftoggle{compact}{}{
+\item \bibentry{cedeno2019mechanistic}
+\item \bibentry{ren2018generative}
+}
+\item \bibentry{adiga2018inferringprob}
+\item \bibentry{adiga2018learning}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2017kserver}
+\item \bibentry{venkat2017towards}
+}
+\item \bibentry{adiga2016delay}
+\item \bibentry{adiga2016temporal}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2015csd}
+}
+\item \bibentry{zhang2015group}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2015inferring}
+\item \bibentry{adiga2015network}
+\item \bibentry{adiga2015effect}
+}
+\item \bibentry{saha2015spectrum}
+\item \bibentry{saha2014game}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2013modelingurban}
+}
+\item \bibentry{adiga2013subgraph}
+\item \bibentry{adiga2013robust}
+\item \bibentry{adiga2013sensitivity}
+\item \bibentry{adiga2012representing}
+\iftoggle{compact}{}{
+\item \bibentry{adiga2012polynomial}
+\item \bibentry{adiga2011cubicity}
+\item \bibentry{adiga2011constant}
+\item \bibentry{adiga2010parameterized}
+\item \bibentry{adiga2010boxicity}
+\item \bibentry{adiga2009cubicity}
+\item \bibentry{adiga2003design}
+}
+\end{enumerate}
+\iftoggle{compact}{}{
+\noindent\textbf{Workshop/Extended abstract}\\
+\begin{enumerate}[1.]
+\item \bibentry{adiga2020boolean}
+\item \bibentry{fox2019learning}
+\item \bibentry{adiga2019inferring}
+\item \bibentry{adiga2019understanding}
+\item \bibentry{nath2018using}
+\item \bibentry{adiga2018using}
+\item \bibentry{adiga2018inferring}
+\item \bibentry{geneiusWu}
+\item \bibentry{hybridModelsVenkat}
+\item \bibentry{climexSridhar}
+\item \bibentry{venkat2016kdd}
+\item \bibentry{adiga2015bme}
+\item \bibentry{adiga2015synthetic}
+\item \bibentry{adiga2012route}
+\end{enumerate}
+\noindent\textbf{Reports}\\
+\begin{enumerate}[1.]
+\item \bibentry{heinrichs2018pest}
+\end{enumerate}
+}
+%% \noindent\textbf{Under review/Technical reports}\\
+%% \begin{enumerate}[1.]
+%% \item \bibentry{mortveit2015synthetic}
+%% \item \bibentry{adiga2015sublinear}
+%% \item \bibentry{adiga2015interaction}
+%% \end{enumerate}
+%%
+\section{\textnormal{\textsc{Students \\Current/Past}}}
+\noindent\textbf{Student thesis/project committee}\\
+Manisha Sudhir (Spring'20--Spring'21) (Co-adviser with Anil
+Vullikanti)\\
+Prathyush Sambaturu (PhD, UVA) \\
+Tanay Mehta (PhD, Northeastern University) \\
+Sudip Saha (PhD, Virginia Tech)\vspace{.2cm}\\
+\noindent\textbf{PhD} (GRA)\\
+Sichao Wu (Thesis adviser: Henning Mortveit)\vspace{.2cm}\\
+\noindent\textbf{Masters} (GRA)\\
+Sanchit Sinha (Spring'21)\\
+Aniruddha Dave (Fall'20)\\
+Daniel Perez Lazarte (Fall'19, Spring'20)\\
+Joseph McNitt (Thesis adviser: Henning Mortveit)\vspace{.2cm}\\
+\noindent\textbf{Undergraduates}\\
+Neha Pattanaik (Summer'21),
+Penina Waghalter (Summer'21),
+Nicholas Palmer (Summer'21),
+Johnny Yang (Fall'20, Spring'21),
+Surbhi Singh (Fall'19--Spring'20),
+Ethan Choo (Summer'19),
+Katie Liu (Summer'19),
+Bryan Kaperick (Spring'16--Spring'17), and
+Amleshwar Kumar (Intern: Fall'16) \vspace{.2cm}\\
+\noindent\textbf{High school}\\
+Manu Amundsen (Spring'21)
+%%\section{\textnormal{Memberships}}
+%%\begin{enumerate}[$\circ$]
+%%\item IEEE member
+%%\end{enumerate}
+%%
+%%
+\section{\textnormal{\textsc{Professional Service}}}
+\noindent\textbf{Guest editor}\\
+Journal of Indian Institute of Science (2021)\smallskip\\
+\noindent\textbf{Senior Technical Program Committee member}\\ 
+IJCAI~(2021)\\
+\noindent\textbf{Technical Program Committee member}\\ 
+ANNSIM~(2021), AIKE~(2018--2021), PhD-ASONAM (2020), INFOCOM~(2019), CSoNet~(2016), CONECCT~(2015), SDM-Networks~(2015), SIAMNS~(2015)\smallskip\\
+\noindent\textbf{Grant Review}\\
+USDA~(Spring'20 and Fall'20) (Grant review panelist)\\
+NSF~(2018) (Grant review panelist)\\
+National Fund for Scientific and Technological Development (FONDECYT),
+Chile\smallskip\\
+\noindent\textbf{Reviewer}\\ 
+\noindent
+Biological Control (2021),
+Nature Comm. Biology (2021),
+Applied Network Science (2021, 2020, 2019),
+Journal of Pest Science~(2020, 2018), 
+International Journal of epidemiology~(2019),
+Pest Management Science~(2019), 
+Journal of Parallel and Distributed Computing~(2019), 
+Australasian Journal of Combinatorics~(2018, 2015),
+FPSAC~(2017),
+ACM Transactions on Algorithms~(2017),
+Journal of Royal Society Interface~(2017), INFOCOM~(2016, 2015), Order~(2015), 
+Algorithmica~(2014), Journal of Autonomous Agents and Multi-Agent
+Systems~(2013), 
+Information Processing Letters~(2012), 
+Graphs and
+Combinatorics~(2011), CATS~(2011)\bigskip\\
+\iftoggle{compact}{}{
+\noindent\textbf{Miscellaneous}\\ 
+\begin{enumerate}[$\circ$]
+\item Student and postdoc hiring committee in NSSAC 2018-present
+\item Student and postdoc hiring committee in NDSSL 2017-2018
+\item Member of graduate students admission team in NDSSL for the Fall'16
+admissions
+\item Organized NDSSL graduate seminar series for the academic year 2013-2014
+\end{enumerate}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For visa
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iftoggle{visa}{
+\newpage
+\section{\textnormal{PhD \textsc{Committees}}}
+Prathyush Sambaturu (Univ. of Virginia) \\
+Tanay Mehta (Northeastern University) \\
+Sudip Saha (Virginia Tech)
+\section{\large{Job description}:}
+\vspace{.8cm}
+%%
+\section{\textnormal{{Current job}}}\label{sec:currentJob}
+My work is in the areas of network science, algorithms, combinatorics and
+game theory. My research focus is on the design and analysis of
+computational models and their application to solve real-world problems.
+Through interdisciplinary collaborative efforts, I (i)~contribute to the
+understanding of structural and dynamical properties of networks,
+(ii)~develop efficient and practical algorithms for various optimization
+problems, and (iii)~take part in the design and implementation of complex
+simulation systems. Some of the application areas of my work include
+invasive pest modeling, computational epidemiology, transportation and
+social sciences.
+%%
+\section{\textnormal{{Senior Research Associate}}}\label{sec:sra}
+(May 2014 -- Jul 2016) Job description is same as current
+job.\smallskip
+%%
+\section{\textnormal{{Postdoctoral associate}}}\label{sec:postdoc}
+(October 2011 -- May 2014) Job description is same as current
+job.\smallskip
+%%
+\section{\textnormal{{Research associate}}}
+(March 2011 to October 2011) I continued my PhD work.\smallskip
+%%
+\section{\textnormal{PhD}}
+(August 2006 to March 2011)
+The work of this thesis falls into the broad area of theoretical computer
+science, and in particular, concerns graph theory, combinatorics and
+algorithms. We study some geometric representations of graphs and
+dimensional properties of graphs and posets. The main objective is
+to represent a graph using certain geometric objects. Many problems
+on graphs which are otherwise computationally hard to solve can be
+solved efficiently if the graph in consideration has a simple geometric
+representation. In the parlance of theoretical computer science, many
+NP-hard problems may be either solved in polynomial time or at least
+have good approximation algorithms when a graph has a low dimensional
+geometric representation. Besides, the representations which we consider
+have applications in various other scientific disciplines: ecology,
+social sciences, psychology, telecommunication and operations research.
+Our contribution to this area are as follows:
+(1)~We have developed efficient algorithms to
+obtain such representations for certain specific classes of graphs.
+(2)~We have complexity results which show that for some classes of graphs, it
+is computationally hard to obtain such a representation.
+(3)~We give a general framework relating different representations.
+%%
+\section{\textnormal{Beceem Communications}}\label{sec:beceem}
+(August 2004 -- July 2006)
+I was part of the algorithm development and simulation group. My
+work involved the design and implementation of algorithms for WiMax
+(802.16), a wireless broadband standard. I worked on (1)~implementing
+and maintaining the error control coding module in the simulator, 
+%I had
+%to implement the turbo encoder and decoder, a class of high-performance
+%forward error correction (FEC) codes. The language in which the simulator
+%was implemented was MATLAB.
+(2)~The creation of an interface between
+the simulator (coded in MATLAB) and the chip (coded using Verilog), 
+%I was involved in this project right from its initiation. This interface
+%provided the vital link between the two modules and enabled the
+%verification.
+(3)~Running simulations by
+varying parameters such as type of codec, channel, etc.
+%%
+\section{\textnormal{Project associate}}\label{sec:dataMining}
+(October 2003 to April 2004)
+The work was in the area of temporal data-mining. 
+%We were given access
+%to months of data from a manufacturing line of a factory. Each time
+%the manufacturing process stopped, the time and the reason behind
+%the stoppage was logged into the system. The reasons could be anything
+%ranging from the mundane (like a lunch break!) to the very technical ones.
+%Each possible reason for stoppage was represented by a symbol. Hence,
+%the data given to us was in the form of very long sequences of symbols
+%with time stamp. 
+The aim was to extract interesting patterns from a sequence of logs
+obtained from a manufacturing process by using machine learning techniques.
+%The main question
+%that our tool had to answer was: Does a particular sequence of breakdowns
+%in one section of the manufacturing line influence a breakdown in some
+%other section?
+%My work was mainly implementation oriented and could be divided into two
+%parts.  Firstly, 
+I helped in the development of the data mining tools for this purpose.
+%to filter the data 
+%(like
+%for example, removing the symbols corresponding to lunch break). This
+%required using some scripting languages. Secondly, 
+%I had to assist in
+%enhancing our data mining tool by implementing new search techniques. The
+%language of implementation was C.
+%
+%I was also involved in administrative activities related to the project and
+%conducting exams.
+%%
+\section{\textnormal{MSc}}\label{sec:mastersAbstract}
+(August 2001 to September 2003)
+We proposed a framework for implementing wavelet transforms in the
+frequency domain particularly for application on images and analyzed the
+performance of our methods in the context of image compression by comparing
+our methods with the methods used in JPEG and JPEG 2000 image compression
+standards.
+%%
+\section{\textnormal{Project associate}}\label{sec:turbo}
+(October 2000 -- August 2001)
+I worked in the area of communication theory. My work involved studying
+the area of joint source and channel coding and other areas related to
+telecommunication. I implemented some algorithms like turbo codecs and
+Rijndael in MATLAB and helped in administrative activities.
+
+\newpage
+\section{Personnel Manager Information}
+\noindent{\bf Madhav V. Marathe}
+
+\noindent Director, Network Dynamics and Simulation Science Laboratory
+and Professor, Computer Science\\
+\\
+\noindent{\bf Mailing Address:} \\
+\noindent Network Dynamics and Simulation Science Laboratory \\
+\noindent Virginia Bioinformatics Institute \\
+\noindent Virginia Polytechnic Institute and State University \\
+\noindent Research Building XV (0477) \\
+\noindent 1880 Pratt Drive \\
+\noindent Blacksburg, VA 24061 \\
+\noindent USA \\
+\\
+{\bf Tel:} 540-231-8252\\
+{\bf Fax:} 540-231-2891\\
+{\bf Email:} marathe@vt.edu\\
+{\bf Web page:}
+http://www.vbi.vt.edu/ndssl/people/people-profile/Madhav-Marathe \\
+\\
+\\
+\noindent{\bf L. Sunil Chandran}\\
+Associate Professor,
+Department of Computer Science and Automation
+Indian Institute of Science\\
+\\
+\noindent{\bf Mailing Address:} \\
+CSA Department\\
+Indian Institute of Science\\
+Bangalore - 560012\\
+\\
+{\bf Tel:} +91-80-22932368\\
+{\bf Fax:} +91-80-23602911 \\
+{\bf Email:} sunil@csa.iisc.ernet.in\\
+{\bf Web page:} http://drona.csa.iisc.ernet.in/\textasciitilde sunil/
+
+
+   }{}
+\end{resume}
+\bibliographystyle{abbrv}
+\nobibliography{refs}
+\end{document}

@@ -1,0 +1,445 @@
+\documentclass[margin,10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Common preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE
+%% \usepackage{fullpage}
+% FONTS
+\usepackage{url} % enhanced version of computer modern
+\urlstyle{same}
+\usepackage{lmodern} % enhanced version of computer modern
+\usepackage[T1]{fontenc} % for hyphenated characters
+\usepackage{amssymb}
+\usepackage{mathtools} % contains amsmath which comes with align
+\usepackage{amsthm}
+\usepackage{microtype} % some compression
+%%
+%% REFERENCING DOES NOT WORK WITH BIBENTRY PACKAGE
+\usepackage{natbib}
+\usepackage[colorlinks=false,pdfborder={0 0
+ 0},citecolor=magenta,linkcolor=magenta]{hyperref}
+
+\usepackage{bibentry}
+% LISTS
+\usepackage{enumerate}
+% ROMAN NUMERALS
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% preamble ends
+%% from now on, draft specific
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\textwidth}{5.1in} % Text width of the document
+\usepackage{etoolbox}
+\usepackage{multicol}
+%% adding footer
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+%%\fancypagestyle{mypagestyle}{%
+%%\fancyhf{}%
+%%\fancyfoot[C]{\textcolor{red}{\thepage}}%
+%%}
+\rfoot{\textcolor{gray}{Updated on \today}}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\pagenumbering{gobble}
+\newtoggle{visa}
+\newtoggle{compact}
+%\toggletrue{visa} % comment this if you want normal resume
+\toggletrue{compact} % comment this if you want normal resume
+
+\begin{document}
+\thispagestyle{fancy}
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+%\moveleft.5\hoffset\centerline{\large\bf Abhijin Adiga\hfill} % Your name at the top
+\moveleft1.0\hoffset\centerline{\large\bf Abhijin Adiga\hfill} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+%%  
+%% \section{OBJECTIVE}  
+%% 
+%% A position in the field of computers with special interests in business applications programming, information processing, and management systems. 
+%% 
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{\textnormal{\textsc{Contact Information}}}
+Network Dynamics and Simulation Science Laboratory\\
+Biocomplexity Institute of Virginia Tech\hfill \texttt{email:}
+abhijin@vbi.vt.edu\hspace{3mm}\mbox{}\\
+1015 Life Science Circle\hfill \texttt{phone:}
+\texttt{+}1 540 204 6679\hspace{7mm}\mbox{}\\
+Blacksburg, VA 24061, USA \\
+\url{https://www.bi.vt.edu/ndssl/people/Abhijin-Adiga}
+%%%%
+\section{\textnormal{\textsc{Research Interests}}}
+{\bf Broad areas:} 
+Combinatorics;
+Design \& analysis of algorithms;
+Game theory; 
+Computational modeling; and
+Network science\\
+{\bf Application areas:} Computational epidemiology; Modeling and analysis
+of large socio-technical systems; Invasive species modeling
+%%
+\section{\textnormal{\textsc{Current\,\,\,\, Position}}}
+\textbf{Research Assistant Professor} \hfill Jul 2016 -- present\\
+Network Dynamics and Simulation Science Laboratory\\
+Biocomplexity Institute of Virginia Tech
+%%%%
+\section{\textnormal{\textsc{Education}}}
+\textbf{PhD:} \hfill August 2006 -- March 2011\\
+Dept. of Computer Science and Automation\\
+Indian Institute of Science, Bangalore, India\\ 
+Adviser: {Dr. L Sunil Chandran}\\
+{Thesis}: On Dimensional Parameters of Graphs and Posets\\
+~\\
+\noindent\textbf{Master of Science (Engg):} \hfill August 2001 -- August 2003\\
+Dept. of Electrical Engineering,\\
+Indian Institute of Science, Bangalore, India\\
+Adviser: Dr. K R Ramakrishnan\\
+{Thesis:} Cyclic Multirate Structures Based on Symmetric-Periodic
+Sequences\\
+~\\
+\noindent\textbf{Bachelor of Engineering:} \hfill 1996 -- 2000\\
+Bangalore University (B.M.S. College of Engineering)\\
+Telecommunication Engineering
+%%%%%%
+\section{\textnormal{\textsc{Work\,\,\,\, Experience}}} 
+Senior Research Associate \hfill May 2014 -- Jun 2016\\
+Postdoctoral Associate \hfill October 2011 -- May 2014\\
+Network Dynamics and Simulation Science Laboratory\\
+Biocomplexity Institute of Virginia Tech\\
+~~~\\
+Research Associate \hfill March 2011 -- September 2011\\
+Dept. of Computer Science and Automation, IISc \\
+~~~\\
+{Beceem Communications Pvt Ltd}\hfill August 2004 -- July 2006\\
+I was involved in the design of algorithms for WiMax (802.16) \\
+~~~\\
+Project Associate \hfill October 2003 -- April 2004\\ 
+Dept. of Electrical Engineering, IISc \\
+%% Worked under Dr. P S Sastry on temporal data-mining \\
+~~~\\
+Project Associate\hfill October 2000 -- August 2001\\ 
+Dept. of Electrical Engineering, IISc \\
+%% Worked under Dr. K R Ramakrishnan on source \& channel coding and Advanced
+%% Encryption Standard (Rijndael)
+%%%%%%%%%%%%
+\section{\textnormal{\textsc{Awards}}}
+\begin{enumerate}[$\circ$]
+   \item ``DSFEW Early Career Researchers Travel Fund'', KDD 2016.
+\item ``Honorable Mention For Outstanding Novelty of Research
+Question'' award for the paper ``Sensitivity of Diffusion Dynamics to
+Network Uncertainty'' in AAAI'13.
+\item Infosys Fellow: awarded to select
+PhD candidates in IISc by Infosys Technologies Ltd. 
+\item Secured All India Rank of 34 in GATE 2000 (EC), a national level
+entrance exam for post graduate studies.
+\item Ranked 7th in Bangalore University in Telecommunication Engg. (Year 2000).
+\end{enumerate}
+%%%%%%
+\section{\textnormal{\textsc{Grants}}}
+USAID IPM Innovation Labs: \emph{A High-resolution Interaction Based Approach to Modeling the Spread
+of Agricultural Invasive Species}\\
+Amount:~\$1,000,000 (\$600,000 for Virginia Tech); Duration: Oct'15--Nov'19\\
+Role: PI
+%%
+\section{\textnormal{\textsc{News}}}
+\begin{enumerate}[$\circ$]
+\item
+\href{https://vtnews.vt.edu/articles/2016/05/outreach-oiredinnovationlabawards.html}{Virginia Tech awards more than \$11 million to help feed people in
+developing countries}
+\item
+\href{https://www.bi.vt.edu/ndssl/news/virginia-tech-research-team-fights-the-spread-of-invasive-pests}{Virginia
+Tech Research Team Fights the Spread of Invasive Pests}
+\end{enumerate}
+%%
+\section{\textnormal{\textsc{Publications}}} 
+\nobibliography*
+\noindent\textbf{Journal articles}\\
+\begin{enumerate}[1.]%%[$\circ$]
+\item \bibentry{zhang2016near}
+\item \bibentry{adiga2016activity}
+\item \bibentry{adiga2016inferring}
+\item \bibentry{adiga2014sensitivity}
+\item \bibentry{adiga2014representing}
+\item \bibentry{adiga2014constant}
+\item \bibentry{wu2014limit}
+\item \bibentry{adiga2014lower}
+\item \bibentry{adiga2014cubicity}
+\item \bibentry{adiga2011boxicity}
+\item \bibentry{adiga2010hardness}
+\item \bibentry{adiga2010cubicity}
+\item \bibentry{adiga2009cubicityThreshold}
+\end{enumerate}
+\noindent\textbf{Conference}\\
+\begin{enumerate}[1.]%%[$\circ$]
+\item \bibentry{adiga2016delay}
+\item \bibentry{adiga2016temporal}
+\item \bibentry{adiga2015csd}
+\item \bibentry{zhang2015group}
+\item \bibentry{adiga2015inferring}
+\item \bibentry{adiga2015network}
+\item \bibentry{adiga2015effect}
+\item \bibentry{saha2015spectrum}
+\item \bibentry{saha2014game}
+\item \bibentry{adiga2013modelingurban}
+\item \bibentry{adiga2013subgraph}
+\item \bibentry{adiga2013robust}
+\item \bibentry{adiga2013sensitivity}
+\item \bibentry{adiga2012representing}
+\item \bibentry{adiga2012polynomial}
+\item \bibentry{adiga2011cubicity}
+\item \bibentry{adiga2011constant}
+\item \bibentry{adiga2010parameterized}
+\item \bibentry{adiga2010boxicity}
+\item \bibentry{adiga2009cubicity}
+\item \bibentry{adiga2003design}
+\end{enumerate}
+\noindent\textbf{Workshop/poster}\\
+\begin{enumerate}[1.]
+\item \bibentry{venkat2016kdd}
+\item \bibentry{adiga2015bme}
+\item \bibentry{adiga2015synthetic}
+\item \bibentry{adiga2012route}
+\end{enumerate}
+\noindent\textbf{Under review/Technical reports}\\
+\begin{enumerate}[1.]
+\item \bibentry{mortveit2015synthetic}
+\item \bibentry{adiga2015sublinear}
+\item \bibentry{adiga2015interaction}
+\end{enumerate}
+%%
+\section{\textnormal{\textsc{Invited talks}}} 
+\begin{enumerate}[1.]
+   \item Monitoring spread of T. absoluta using a multi-layered network
+   based modeling framework, \emph{Symposium on Global Spread and Management
+   of the South American Tomato Leafminer, Tuta absoluta. International
+Congress of Entomology}, 2016
+\item How to stop an epidemic?  Games and near-optimal algorithms,
+\emph{Dept. of Computer Science and Automation, Indian Institute of
+Science}, 2014
+\item Sensitivity of Dynamical Properties to Network Uncertainty,
+\emph{Dept. of Computer Science and Automation, Indian Institute of
+Science}, 2013
+\end{enumerate}
+%%
+\section{\textnormal{\textsc{Students \\Advising}}}
+\noindent\textbf{PhD}\\
+Sichao Wu (Thesis adviser: Henning Mortveit)\vspace{.2cm}\\
+\noindent\textbf{Undergraduates}\\
+Bryan Kaperick (Spring'2016--)\\
+Amleshwar Kumar (Intern: Fall'2016)
+%%
+\section{\textnormal{\textsc{Talks}}}
+\begin{enumerate}[$\circ$]
+   \item ICE, 2016, Monitoring the spread of T. absoluta using a
+   multi­layered network based modeling framework
+   \item (invited) IISc, 2014, How to stop an epidemic? Games and near-optimal
+   algorithms
+   \item ICDM, 2013, Subgraph Enumeration in Dynamic Graphs
+   \item AAAI, 2013, Sensitivity of Diffusion Dynamics to Network Uncertainty
+   \item (invited) IISc, 2013, Sensitivity of dynamic properties to network
+   uncertainty
+   \item SoCG, 2012, Representing a cubic graph as the intersection graph
+   of axis-parallel boxes in three dimensions
+   \item (invited) Bergen, 2009, Lower Bounds for Boxicity
+   \item Eurocomb, 2009, Cubicity of Interval Graphs and the Claw Number
+\end{enumerate}
+%%
+\section{\textnormal{PhD \textsc{Committees}}}
+Sudip Saha (NDSSL, VBI, Virginia Tech)
+%%
+\section{\textnormal{\textsc{Professional Service}}}
+\noindent\textbf{Technical Program Committee member}\\ 
+\begin{enumerate}[$\circ$]
+\item CSoNet~(2016) 
+\item CONECCT~(2015)
+\item SDM-Networks~(2015) 
+\item SIAMNS~(2015)
+\end{enumerate}
+\noindent\textbf{Reviewer}\\ 
+\noindent
+Order~(2015), Australasian Journal of Combinatorics~(2015),
+Algorithmica~(2014), Journal of Autonomous Agents and Multi-Agent
+Systems~(2013), 
+Information Processing Letters~(2012), 
+Graphs and
+Combinatorics~(2011), CATS~(2011)\smallskip\\
+\noindent\textbf{Miscellaneous}\\ 
+\begin{enumerate}[$\circ$]
+\item Member of graduate students admission team in NDSSL for the Fall'16
+admissions
+\item Organized NDSSL graduate seminar series for the academic year 2013-2014
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For visa
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iftoggle{visa}{
+\newpage
+\section{\large{Job description}:}
+\vspace{.8cm}
+%%
+\section{\textnormal{{Current job}}}\label{sec:currentJob}
+My work is in the area of mathematical foundations of big data and network science with
+focus on graph dynamical systems, algorithm design, graph theoretical
+analysis and modeling which have diverse applications in
+technological, social and biological systems. Through collaborative
+efforts, I analyze and develop algorithms for solving
+combinatorial problems that arise out of the study of such systems.
+%%
+\section{\textnormal{{Postdoctoral associate}}}\label{sec:postdoc}
+(October 2011 -- May 2014) Job description is same as current
+job.\smallskip
+%%
+\section{\textnormal{{Research associate}}}
+(March 2011 to October 2011) I continued my PhD work.\smallskip
+%%
+\section{\textnormal{PhD}}
+(August 2006 to March 2011)
+The work of this thesis falls into the broad area of theoretical computer
+science, and in particular, concerns graph theory, combinatorics and
+algorithms. We study some geometric representations of graphs and
+dimensional properties of graphs and posets. The main objective is
+to represent a graph using certain geometric objects. Many problems
+on graphs which are otherwise computationally hard to solve can be
+solved efficiently if the graph in consideration has a simple geometric
+representation. In the parlance of theoretical computer science, many
+NP-hard problems may be either solved in polynomial time or at least
+have good approximation algorithms when a graph has a low dimensional
+geometric representation. Besides, the representations which we consider
+have applications in various other scientific disciplines: ecology,
+social sciences, psychology, telecommunication and operations research.
+Our contribution to this area are as follows:
+(1)~We have developed efficient algorithms to
+obtain such representations for certain specific classes of graphs.
+(2)~We have complexity results which show that for some classes of graphs, it
+is computationally hard to obtain such a representation.
+(3)~We give a general framework relating different representations.
+%%
+\section{\textnormal{Beceem Communications}}\label{sec:beceem}
+(August 2004 -- July 2006)
+I was part of the algorithm development and simulation group. My
+work involved the design and implementation of algorithms for WiMax
+(802.16), a wireless broadband standard. I worked on (1)~implementing
+and maintaining the error control coding module in the simulator, 
+%I had
+%to implement the turbo encoder and decoder, a class of high-performance
+%forward error correction (FEC) codes. The language in which the simulator
+%was implemented was MATLAB.
+(2)~The creation of an interface between
+the simulator (coded in MATLAB) and the chip (coded using Verilog), 
+%I was involved in this project right from its initiation. This interface
+%provided the vital link between the two modules and enabled the
+%verification.
+(3)~Running simulations by
+varying parameters such as type of codec, channel, etc.
+%%
+\section{\textnormal{Project associate}}\label{sec:dataMining}
+(October 2003 to April 2004)
+The work was in the area of temporal data-mining. 
+%We were given access
+%to months of data from a manufacturing line of a factory. Each time
+%the manufacturing process stopped, the time and the reason behind
+%the stoppage was logged into the system. The reasons could be anything
+%ranging from the mundane (like a lunch break!) to the very technical ones.
+%Each possible reason for stoppage was represented by a symbol. Hence,
+%the data given to us was in the form of very long sequences of symbols
+%with time stamp. 
+The aim was to extract interesting patterns from a sequence of logs
+obtained from a manufacturing process by using machine learning techniques.
+%The main question
+%that our tool had to answer was: Does a particular sequence of breakdowns
+%in one section of the manufacturing line influence a breakdown in some
+%other section?
+%My work was mainly implementation oriented and could be divided into two
+%parts.  Firstly, 
+I helped in the development of the data mining tools for this purpose.
+%to filter the data 
+%(like
+%for example, removing the symbols corresponding to lunch break). This
+%required using some scripting languages. Secondly, 
+%I had to assist in
+%enhancing our data mining tool by implementing new search techniques. The
+%language of implementation was C.
+%
+%I was also involved in administrative activities related to the project and
+%conducting exams.
+%%
+\section{\textnormal{MSc}}\label{sec:mastersAbstract}
+(August 2001 to September 2003)
+%This work is in the area of digital signal processing. 
+We proposed a
+framework for implementing wavelet transforms in the frequency domain
+particularly for application on images and analyzed the performance of our
+methods in the context of image compression by comparing our methods with
+the methods used in JPEG and JPEG 2000 image compression
+standards. 
+%%
+\section{\textnormal{Project associate}}\label{sec:turbo}
+(October 2000 -- August 2001)
+I worked in the area of communication theory. My work involved studying
+the area of joint source and channel coding and other areas related to
+telecommunication. I implemented some algorithms like turbo codecs and
+Rijndael in MATLAB and helped in administrative activities.
+
+\newpage
+\section{Personnel Manager Information}
+\noindent{\bf Madhav V. Marathe}
+
+\noindent Director, Network Dynamics and Simulation Science Laboratory
+and Professor, Computer Science\\
+\\
+\noindent{\bf Mailing Address:} \\
+\noindent Network Dynamics and Simulation Science Laboratory \\
+\noindent Virginia Bioinformatics Institute \\
+\noindent Virginia Polytechnic Institute and State University \\
+\noindent Research Building XV (0477) \\
+\noindent 1880 Pratt Drive \\
+\noindent Blacksburg, VA 24061 \\
+\noindent USA \\
+\\
+{\bf Tel:} 540-231-8252\\
+{\bf Fax:} 540-231-2891\\
+{\bf Email:} marathe@vt.edu\\
+{\bf Web page:}
+http://www.vbi.vt.edu/ndssl/people/people-profile/Madhav-Marathe \\
+\\
+\\
+\noindent{\bf L. Sunil Chandran}\\
+Associate Professor,
+Department of Computer Science and Automation
+Indian Institute of Science\\
+\\
+\noindent{\bf Mailing Address:} \\
+CSA Department\\
+Indian Institute of Science\\
+Bangalore - 560012\\
+\\
+{\bf Tel:} +91-80-22932368\\
+{\bf Fax:} +91-80-23602911 \\
+{\bf Email:} sunil@csa.iisc.ernet.in\\
+{\bf Web page:} http://drona.csa.iisc.ernet.in/\textasciitilde sunil/
+
+
+   }{}
+\end{resume}
+\bibliographystyle{mybib}
+\nobibliography{mypapers}
+\end{document}
