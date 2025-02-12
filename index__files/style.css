@@ -43,8 +43,33 @@ a {
 }
 
 /* https://stackoverflow.com/questions/7759229/remove-space-between-paragraph-and-unordered-list */
-p + ul {
+/* p + ul {
     margin-top: -12px;
+}
+*/
+
+
+ul {
+    margin-left: -37px; /* Indent between left and item */
+}
+
+li {
+    display: flex;           /* This is for an entire paragraph to be */ 
+    align-items: flex-start; /* aligned on the left. */
+    margin-bottom: 8px;      /* Space between items */
+}
+
+li p {
+    margin: 0;  /* This is strange. Keep as 0. */
+    padding-left: 10px; /* Creates space between bullet and text */
+}
+
+ul li::before {
+    content: "▢"; /* Unicode for a hollow square */
+    position: relative;
+    top: -0px;
+    font-size: 0.8em;
+    color: black; /* Change color if needed */
 }
 
 /* https://stackoverflow.com/questions/33911049/btn-xs-no-longer-a-valid-option-in-bootstrap-4 */
