@@ -19,14 +19,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #ca2121;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 p, div {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 14px;
 }
 
