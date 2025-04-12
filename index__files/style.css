@@ -31,6 +31,17 @@ p, div {
     font-size: 16px;
 }
 
+.code-block {
+  font-family: 'Fira Code', monospace; /* Or any typewriter font you like */
+  background-color: #fdfdfd;
+  border-left: 2px solid #ccc;
+  padding: 0em 1em;
+  margin: 0em 1em;
+  color: #555;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
 date {
     font-weight:900;
 }
@@ -51,7 +62,7 @@ a {
 
 
 ul {
-    margin-left: -37px; /* Indent between left and item */
+    margin-left: -55px; /* Indent between left and item */
 }
 
 li {
@@ -68,9 +79,20 @@ li p {
 ul li::before {
     content: "▢"; /* Unicode for a hollow square */
     position: relative;
-    top: -0px;
+    top: 2px;
     font-size: 0.8em;
-    color: black; /* Change color if needed */
+    color: #ca2121;
+}
+
+.triangle-list {
+  list-style: none;
+  padding-left: 0;
+}
+.triangle-list li::before {
+  content: "▷";
+  margin-right: 8px;
+  margin-left: 50px;
+  color: #333;
 }
 
 /* https://stackoverflow.com/questions/33911049/btn-xs-no-longer-a-valid-option-in-bootstrap-4 */
