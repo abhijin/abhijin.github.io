@@ -14,9 +14,17 @@ body {
     margin: 5px 0;
 }
 
+/*
 .theme-showcase .navbar .container {
     width: auto;
 }
+
+.theme-showcase .navbar .container {
+    max-width: 75ch;
+    width: auto;
+    margin: 0 auto;
+}
+*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -62,7 +70,7 @@ a {
 
 
 ul {
-    margin-left: -55px; /* Indent between left and item */
+    margin-left: -38px; /* Indent between left and item */
 }
 
 li {
@@ -102,3 +110,18 @@ ul li::before {
   line-height: 0.8;
   border-radius: .2rem;
 }
+
+/*
+.theme-showcase .navbar .container {
+    max-width: 75ch;
+    width: auto;
+    margin: 0 auto;
+}
+*/
+
+.page-container {
+  max-width: 75ch;
+  margin: 0 auto;  /* Center it horizontally */
+  padding: 1rem;   /* Optional: Add some breathing room */
+}
+
