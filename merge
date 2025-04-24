@@ -1,0 +1,2 @@
+#!/bin/bash
+cat intro.html.part papers.html.part end.html.part > index_.html

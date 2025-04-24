@@ -10,7 +10,7 @@ import sqlite3
 DB = '../data/data.db'
 INBIB = '../data/scholar.bib'
 OUTBIB = '../data/mypapers.bib'
-HTML = 'papers.html'
+HTML = 'papers.html.part'
 
 @click.group()
 def cli():
@@ -51,9 +51,13 @@ def db2html():
     df = pd.read_sql_query("SELECT * FROM bib", conn)
     df = df.sort_values('year', ascending=False)
     with open(HTML, 'w') as f:
-        f.write('<ul>')
+        f.write('''
+<h6 id="papers">Research papers</h6>
+      <div style="max-width:75ch">
+          <ul>
+''')
         df.apply(row2html, axis=1, file=f)
-        f.write('</ul>')
+        f.write('</ul>\n</div>')
 
 def row2html(row, file=None):
     if not row.booktitle is None:
