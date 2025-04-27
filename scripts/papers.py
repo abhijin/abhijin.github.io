@@ -12,6 +12,11 @@ INBIB = '../data/scholar.bib'
 OUTBIB = '../data/mypapers.bib'
 HTML = 'papers.html.part'
 
+VENUE_MAP = {
+        'Proceedings of the AAAI Conference on Artificial Intelligence': 'AAAI',
+        'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops': 'CVPR Workshops',
+        }
+
 @click.group()
 def cli():
     pass
@@ -42,28 +47,30 @@ def scholar2db():
 
     # concat with db
     diff['title_new'] = diff.title
+    diff['journal_new'] = diff.journal
+    diff['booktitle_new'] = diff.booktitle
     diff.to_sql('bib', conn, if_exists="append", index=False)
     return
 
 @cli.command()
 def db2html():
     conn = sqlite3.connect(DB)
-    df = pd.read_sql_query("SELECT * FROM bib", conn)
+    df = pd.read_sql_query("SELECT * FROM bib WHERE ignore=0", conn)
     df = df.sort_values('year', ascending=False)
     with open(HTML, 'w') as f:
         f.write('''
 <h6 id="papers">Research papers</h6>
       <div style="max-width:75ch">
-          <ul>
+          <ul class="ul-research-papers">
 ''')
         df.apply(row2html, axis=1, file=f)
         f.write('</ul>\n</div>')
 
 def row2html(row, file=None):
     if not row.booktitle is None:
-        venue = row.booktitle
+        venue = shorten_venue(row.booktitle_new)
     elif not row.journal is None:
-        venue = row.journal
+        venue = shorten_venue(row.journal_new)
     else:
         print(row.ID, 'Could not extract venue.')
         return
@@ -74,8 +81,8 @@ def row2html(row, file=None):
 
     str = f'''
     <li><p>
-        {title}<br>
-        {author}<br>
+        {title}.
+        {author}.
         {venue}, {row.year}.<br>
     '''
 
@@ -90,12 +97,18 @@ def row2html(row, file=None):
     file.write(str)
     return
 
+def shorten_venue(venue):
+    for k,v in VENUE_MAP.items():
+        if k in venue:
+            return v
+    return venue
+
 def authors(auths):
     new_auth_list = []
     for auth in auths.split(' and '):
         name_disagg = auth.split(', ')
         try:
-            new_auth_list.append(name_disagg[1] + ' ' + name_disagg[0])
+            new_auth_list.append(name_disagg[1] + r'&nbsp' + name_disagg[0])
         except IndexError:
             if name_disagg[0] == 'others':
                 new_auth_list.append(name_disagg[0])
