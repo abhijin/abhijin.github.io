@@ -1,2 +1,3 @@
 #!/bin/bash
+python scripts/papers.py db2html
 cat intro.html.part papers.html.part end.html.part > index_.html

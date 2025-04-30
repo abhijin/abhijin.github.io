@@ -7,15 +7,45 @@ from re import sub
 from scholarly import scholarly
 import sqlite3
 
-DB = '../data/data.db'
-INBIB = '../data/scholar.bib'
-OUTBIB = '../data/mypapers.bib'
+DB = './data/data.db'
+INBIB = './data/scholar.bib'
+OUTBIB = './data/mypapers.bib'
 HTML = 'papers.html.part'
 
 VENUE_MAP = {
         'Proceedings of the AAAI Conference on Artificial Intelligence': 'AAAI',
+        'Association for the Advancement of Artificial Intelligence Conference': 'AAAI',
         'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops': 'CVPR Workshops',
+        'Winter Simulation Conference': 'WSC',
+        'ACM SIGKDD Conference on Knowledge Discovery and Data Mining': 'KDD',
+        'International Conference on Complex Networks and Their Applications': 'Complex Networks',
+        'International Conference on Autonomous Agents and Multiagent Systems': 'AAMAS',
+        'International Conference on Machine Learning': 'ICML',
+        'International Conference on Big Data': 'IEEE Big Data',
+        'International Conference on Information and Knowledge Management': 'CIKM',
+        'International Conference on Computer Communications': 'INFOCOM',
+        'International Conference on Data Mining': 'ICDM',
+        'PKDD': 'PKDD',
+        'ICASSP': 'ICASSP',
         }
+
+# Map LaTeX accents to characters
+LATEX_TO_CHAR = {
+    r"{\\'e}": "é",
+    r"{\\'a}": "á",
+    r"{\\'i}": "í",
+    r"{\\'o}": "ó",
+    r"{\\'u}": "ú",
+    r"{\\`e}": "è",
+    r"{\\`a}": "à",
+    r"{\\`i}": "ì",
+    r"{\\`o}": "ò",
+    r"{\\`u}": "ù",
+    r"{\\~n}": "ñ",
+    r"{\\^o}": "ô",
+    r"{\\aa}": "å",
+    # add more if needed
+}
 
 @click.group()
 def cli():
@@ -105,6 +135,8 @@ def shorten_venue(venue):
 
 def authors(auths):
     new_auth_list = []
+    auths = convert_latex_accents(auths)
+
     for auth in auths.split(' and '):
         name_disagg = auth.split(', ')
         try:
@@ -116,6 +148,11 @@ def authors(auths):
         return ', '.join(new_auth_list[0:-1]) + ' and ' + new_auth_list[-1]
     except:
         set_trace()
+
+def convert_latex_accents(text):
+    for latex, char in LATEX_TO_CHAR.items():
+        text = sub(latex, char, text)
+    return text
 
 @cli.command()
 def db2bib():
