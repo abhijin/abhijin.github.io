@@ -17,9 +17,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 
   <!-- Other styles -->
-  <link href="./index__files/css(1)" rel="stylesheet">
-  <link href="./index__files/icon.css" rel="stylesheet">
-  <link href="./index__files/style.css" rel="stylesheet">
+  <link href="./index_files/css(1)" rel="stylesheet">
+  <link href="./index_files/icon.css" rel="stylesheet">
+  <link href="./index_files/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +43,7 @@
     <br>
     <div class="row">
       <div class="col-md-6">
-        <img class="img-thumbnail" src="./index__files/abhijin_0474_square.jpg" alt="" style="width:70%">
+        <img class="img-thumbnail" src="./index_files/abhijin_0474_square.jpg" alt="" style="width:70%">
         <br>
       </div>
       <div class="col-lg-4">
@@ -56,7 +56,7 @@
           <a href="mailto:abhijin@virginia.edu" class="icon fa-envelope"></a> abhijin@virginia.edu<br>
           <a href="https://github.com/abhijin" class="icon fa-github"></a> abhijin<br>
 
-          [<a href="https://abhijin.github.io/cv_abhijin_web.pdf">CV</a>]<br><br>
+          [<a href="https://abhijin.github.io/cv_abhijin_web.pdf" target="_blank">CV</a>]<br><br>
         </p>
       </div>
     </div>
@@ -66,20 +66,27 @@
       <p>Welcome to my home page!</p>
 
       <p>
-        I develop computational frameworks to understand and shape complex systems that arise from large-scale interactions—across domains such as infectious disease dynamics, socio-environmental resilience, agriculture, and social systems. My work draws on and contributes to network science, simulation modeling, algorithm design, and machine learning. Central to my research are the development of realistic synthetic datasets (akin to digital twins), data-driven simulation models, the design of domain-informed algorithms, and the advancement of theoretical foundations underlying these complex systems.
+I develop computational frameworks to study complex systems that arise from
+large-scale interactions across domains such as infectious disease
+dynamics, socio-environmental resilience, agriculture, and social systems.
+My work draws on and contributes to network science, simulation modeling,
+algorithm design, and machine learning. Central to my research are the
+development of realistic synthetic datasets (like digital twins) and
+data-driven simulation models, the design of domain-informed algorithms,
+and the advancement of theoretical foundations underlying these complex
+systems.
       </p>
       <p>
-        Much of my work takes place in interdisciplinary team environments and has been supported by multiple funding agencies. I have led several USDA- and USAID-funded projects that address real-world socio-technical challenges.
+        Much of my work takes place in interdisciplinary team environments and has been supported by multiple funding agencies. I have led USDA- and USAID-funded projects that address real-world socio-technical challenges.
       </p>
 
       Some <span style="color: #ca2121;">keywords</span> that cover my areas of research:
       <div class="code-block">
         <ul class="triangle-list">
-          <li>agent-based models, simulation analytics</li>
-          <li>digital twins, data science remote sensing</li>
           <li>network science, graph theory, algorithm design, algorithmic game theory</li>
-          <li>machine learning, remote sensing</li>
-          <li>infectious diseases, biological invasions, agriculture, food systems, resiliency of socio-technical systems</li>
+          <li>agent-based models, simulation analytics, digital twins, data science</li>
+          <li>machine learning</li>
+          <li>infectious diseases, biological invasions, agriculture, food systems, resiliency of socio-technical systems, remote sensing</li>
           <li>resource allocation, risk assessment, learnability, inference, forecasting</li>
         </ul>
       </div>
