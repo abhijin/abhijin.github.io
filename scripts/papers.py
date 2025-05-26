@@ -7,9 +7,8 @@ from re import sub
 from scholarly import scholarly
 import sqlite3
 
-DB = './data/data.db'
-INBIB = './data/scholar.bib'
-OUTBIB = './data/mypapers.bib'
+DB = '../data/data.db'
+INBIB = '../data/scholar.bib'
 HTML = 'papers.html.part'
 
 VENUE_MAP = {
@@ -76,9 +75,10 @@ def scholar2db():
         print('The following new entries will be added ...', diff.title.values)
 
     # concat with db
+    diff['title_web'] = diff.title
     diff['title_new'] = diff.title
-    diff['journal_new'] = diff.journal
-    diff['booktitle_new'] = diff.booktitle
+    diff['journal_web'] = diff.journal
+    diff['booktitle_web'] = diff.booktitle
     diff.to_sql('bib', conn, if_exists="append", index=False)
     return
 
@@ -98,14 +98,14 @@ def db2html():
 
 def row2html(row, file=None):
     if not row.booktitle is None:
-        venue = shorten_venue(row.booktitle_new)
+        venue = shorten_venue(row.booktitle_web)
     elif not row.journal is None:
-        venue = shorten_venue(row.journal_new)
+        venue = shorten_venue(row.journal_web)
     else:
         print(row.ID, 'Could not extract venue.')
         return
     
-    title = sub('\n', ' ', row.title_new)
+    title = sub('\n', ' ', row.title_web)
     author = sub('\n', ' ', authors(row.author))
     venue = sub('\n', ' ', venue)
 
