@@ -7,7 +7,7 @@ from re import sub
 from scholarly import scholarly
 import sqlite3
 
-DB = '../data/data.db'
+DB = '/Users/abhijin/github/abhijin.github.io/data/data.db'
 INBIB = '../data/scholar.bib'
 HTML = 'papers.html.part'
 
@@ -85,7 +85,7 @@ def scholar2db():
 @cli.command()
 def db2html():
     conn = sqlite3.connect(DB)
-    df = pd.read_sql_query("SELECT * FROM bib WHERE ignore=0", conn)
+    df = pd.read_sql_query('SELECT * FROM bib WHERE category!="i"', conn)
     df = df.sort_values('year', ascending=False)
     with open(HTML, 'w') as f:
         f.write('''
