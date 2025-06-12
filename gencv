@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/github/abhijin.github.io/cv
+python ../scripts/papers.py db2cv
+pdflatex cv_abhijin.tex
+bibtex cv_abhijin
+pdflatex cv_abhijin.tex
+pdflatex cv_abhijin.tex

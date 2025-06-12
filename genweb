@@ -1,3 +1,4 @@
 #!/bin/bash
+cd ~/github/abhijin.github.io/
 python scripts/papers.py db2html
 cat intro.html.part papers.html.part end.html.part > index.html

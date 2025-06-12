@@ -22,6 +22,7 @@
 \newcommand{\tuta}{\emph{T.~absoluta}}
 \newcommand{\tutafull}{\emph{Tuta~absoluta}}
 
+\usepackage{etaremune}
 \usepackage{bibentry}
 % LISTS
 \usepackage{enumerate}
@@ -492,133 +493,29 @@ Institute of Science}, Bangalore, 2013
 \end{enumerate}
 }
 
-\iftoggle{compact}{
 \section{\textnormal{\textsc{Selected publications}}}
 \begin{enumerate}[1.]%%[$\circ$]
-\item \bibentry{adiga2022network}
-\item \bibentry{poudel2020predicting}
-\item \bibentry{mcnitt2019assessing}
-\item \bibentry{maharjan2019predicting}
-\item \bibentry{venkatramanan2020modeling}
-\item \bibentry{campos2017western}
-\item \bibentry{zhang2016near}
-\item \bibentry{mishra2023reconstructing}
-\item \bibentry{adiga2021realistic}
-\item \bibentry{adiga2014sensitivity}
+\input{selected}
 \end{enumerate}
-}{
+
 \section{\textnormal{\textsc{Publications}}} 
 \noindent\textbf{Journal articles}\\
-\begin{enumerate}[1.]%%[$\circ$]
-\item \bibentry{bhattacharya2024novel}
-\item \bibentry{chen2024role}
-\item \bibentry{adiga2022using}
-\item \bibentry{adiga2022network}
-\item \bibentry{cedeno2020networked}
-\item \bibentry{poudel2020predicting}
-\item \bibentry{adiga2022using}
-\item \bibentry{adiga2022network}
-\item \bibentry{de2021thermal}
-\item \bibentry{mcnitt2019assessing}
-\item \bibentry{maharjan2019predicting}
-\item \bibentry{venkatramanan2020modeling}
-\item \bibentry{adiga2019graphical}
-\item \bibentry{adiga2018disparities}
-\item \bibentry{adiga2018sublinear}
-\item \bibentry{campos2017western}
-\item \bibentry{adiga2017inferring}
-\item \bibentry{adiga2017activity}
-\item \bibentry{zhang2016near}
-\item \bibentry{adiga2014sensitivity}
-\item \bibentry{adiga2014representing}
-\item \bibentry{adiga2014constant}
-\item \bibentry{wu2014limit}
-\item \bibentry{adiga2014lower}
-\item \bibentry{adiga2014cubicity}
-\item \bibentry{adiga2011boxicity}
-\item \bibentry{adiga2010hardness}
-\item \bibentry{adiga2010cubicity}
-\item \bibentry{adiga2009cubicityThreshold}
-\item \bibentry{saha2015spectrum}
-\item \bibentry{adiga2013robust}
-\end{enumerate}
+\begin{etaremune}
+\input{journal}
+\end{etaremune}
 \clearpage
 \noindent\textbf{Refereed conference proceedings}\\
-\begin{enumerate}[1.]%%[$\circ$]
-\item \bibentry{qiu2024learning}
-\item \bibentry{adiga2024value}
-\item \bibentry{aljundi2023network}
-\item \bibentry{tanvir2023machine}
-\item \bibentry{harrison2023identifying}
-\item \bibentry{trabelsi2023resource}
-\item \bibentry{mishra2023reconstructing}
-\item \bibentry{trabelsi2023resource}
-\item \bibentry{mishra2022community}
-\item \bibentry{trabelsi2022resource}
-\item \bibentry{rosenkrantz2022efficiently}
-\item \bibentry{chen2022effective}
-\item \bibentry{trabelsi2022maximizing}
-\item \bibentry{adiga2021realistic}
-\item \bibentry{bhattacharya2021ai}
-\item \bibentry{hoops2021high}
-\item \bibentry{adiga2020booleangames}
-\item \bibentry{adiga2020bounds}
-\item \bibentry{adiga2019validating}
-\item \bibentry{hu2019modeling}
-\item \bibentry{adiga2019pac}
-\item \bibentry{cedeno2019mechanistic}
-\item \bibentry{ren2018generative}
-\item \bibentry{adiga2018inferringprob}
-\item \bibentry{adiga2018learning}
-\item \bibentry{adiga2017kserver}
-\item \bibentry{venkat2017towards}
-\item \bibentry{adiga2016delay}
-\item \bibentry{adiga2016temporal}
-\item \bibentry{adiga2015csd}
-\item \bibentry{zhang2015group}
-\item \bibentry{adiga2015inferring}
-\item \bibentry{adiga2015network}
-\item \bibentry{adiga2015effect}
-\item \bibentry{saha2015spectrum}
-\item \bibentry{saha2014game}
-\item \bibentry{adiga2013modelingurban}
-\item \bibentry{adiga2013subgraph}
-\item \bibentry{adiga2013robust}
-\item \bibentry{adiga2013sensitivity}
-\item \bibentry{adiga2012representing}
-\item \bibentry{adiga2012polynomial}
-\item \bibentry{adiga2011cubicity}
-\item \bibentry{adiga2011constant}
-\item \bibentry{adiga2010parameterized}
-\item \bibentry{adiga2010boxicity}
-\item \bibentry{adiga2009cubicity}
-\item \bibentry{adiga2003design}
-\end{enumerate}
+\begin{etaremune}
+\input{conference}
+\end{etaremune}
 \noindent\textbf{Workshop/Extended abstract}\\
-\begin{enumerate}[1.]
-\item \bibentry{bintey2024irrnet}
-\item \bibentry{adiga2023robust}
-\item \bibentry{trabelsi2022maximizing}
-\item \bibentry{mishra2022communities}
-\item \bibentry{adiga2020boolean}
-\item \bibentry{fox2019learning}
-\item \bibentry{adiga2019inferring}
-\item \bibentry{adiga2019understanding}
-\item \bibentry{nath2018using}
-\item \bibentry{adiga2018using}
-\item \bibentry{adiga2018inferring}
-\item \bibentry{geneiusWu}
-\item \bibentry{hybridModelsVenkat}
-\item \bibentry{climexSridhar}
-\item \bibentry{venkat2016kdd}
-\item \bibentry{adiga2015bme}
-\item \bibentry{adiga2015synthetic}
-\item \bibentry{adiga2012route}
-\end{enumerate}
+\begin{etaremune}
+\input{workshop}
+\end{etaremune}
 \noindent\textbf{Reports}\\
-\begin{enumerate}[1.]
-\item \bibentry{heinrichs2018pest}
-\end{enumerate}
+\begin{etaremune}
+\input{report}
+\end{etaremune}
 %% \noindent\textbf{Under review/Technical reports}\\
 %% \begin{enumerate}[1.]
 %% \item \bibentry{mortveit2015synthetic}
@@ -728,7 +625,6 @@ E\textsuperscript{2}JDJ\bigskip\\
 admissions
 \item Organized NDSSL graduate seminar series for the academic year 2013-2014
 \end{enumerate}
-}
 %%
 \end{resume}
 \bibliographystyle{abbrv}

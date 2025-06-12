@@ -85,7 +85,7 @@ def scholar2db():
 @cli.command()
 def db2html():
     conn = sqlite3.connect(DB)
-    df = pd.read_sql_query('SELECT * FROM bib WHERE category!="i"', conn)
+    df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
     df = df.sort_values('year', ascending=False)
     with open(HTML, 'w') as f:
         f.write('''
@@ -97,9 +97,9 @@ def db2html():
         f.write('</ul>\n</div>')
 
 def row2html(row, file=None):
-    if not row.booktitle is None:
+    if row.booktitle is not None:
         venue = shorten_venue(row.booktitle_web)
-    elif not row.journal is None:
+    elif row.journal is not None:
         venue = shorten_venue(row.journal_web)
     else:
         print(row.ID, 'Could not extract venue.')
@@ -115,11 +115,6 @@ def row2html(row, file=None):
         {author}.
         {venue}, {row.year}.<br>
     '''
-
-    ## if row.url != -1:
-    ##     url = row.url
-    ##     str += f'''
-    ##     <a href="{url}" class="btn btn-outline-dark btn-xs">PDF</a>
 
     str += '''
     </p></li>
@@ -154,9 +149,69 @@ def convert_latex_accents(text):
         text = sub(latex, char, text)
     return text
 
+def venue_type(row):
+    if row.venue_type is None:
+        if row.booktitle is not None:
+            row.venue_type = 'conference'
+        elif row.journal is not None:
+            row.venue_type = 'journal'
+            if 'arXiv' in row.journal:
+                row.venue_type = 'preprint'
+        else:
+            print(row.ID, 'Could not extract venue.')
+    
+    return row
+
+def df2bibentry(row):
+    if row.venue_type in ['journal', 'preprint', 'report']:
+        bib = '''
+@article{%s,
+  title={%s},
+  author={%s},
+  journal={%s},
+  year={%s}
+}
+''' % (row.ID, row.title_new, row.author, row.journal, row.year)
+    elif row.venue_type in ['conference', 'workshop']:
+        bib = '''
+@inproceedings{%s,
+  title={%s},
+  author={%s},
+  booktitle={%s},
+  year={%s}
+}
+''' % (row.ID, row.title_new, row.author, row.booktitle, row.year)
+    else:
+        bib = ''
+    row['bib'] = bib
+    return row
+
 @cli.command()
-def db2bib():
-    pass
+def db2cv():
+    fd = {}
+    for col in ['bib', 'preprint', 'journal', 'conference', 'workshop',
+                'selected', 'report', 'recent']:
+        if col == 'bib':
+            fd[col] = open('mypapers.bib', 'w')
+        else:
+            fd[col] = open(f'{col}.tex', 'w')
+
+    conn = sqlite3.connect(DB)
+    df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
+    df = df.sort_values('year', ascending=False)
+
+    df = df.apply(venue_type, axis=1)
+    df = df.apply(df2bibentry, axis=1)
+    df['bibentry'] = r'\item \bibentry{' + df.ID + '}'
+
+    fd['bib'].write(''.join(df.bib.tolist()))
+    fd['selected'].write('\n'.join(df[df.selected==1].bibentry.tolist()))
+
+    for col in ['journal', 'conference', 'workshop', 'preprint', 'report']: 
+        fd[col].write('\n'.join(df[df.venue_type==col].bibentry.tolist()))
+
+    for k in fd.keys():
+        fd[k].close()
 
 if __name__ == '__main__':
     cli()
