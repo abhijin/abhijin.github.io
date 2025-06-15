@@ -70,17 +70,35 @@ def scholar2db():
 
     if not diff.shape[0]:
         print('No new document to be added to database.')
-        return
     else:
         print('The following new entries will be added ...', diff.title.values)
 
-    # concat with db
-    diff['title_web'] = diff.title
-    diff['title_new'] = diff.title
-    diff['journal_web'] = diff.journal
-    diff['booktitle_web'] = diff.booktitle
-    diff.to_sql('bib', conn, if_exists="append", index=False)
+        # concat with db
+        diff['title_web'] = diff.title
+        diff['title_new'] = diff.title
+        diff['journal_web'] = diff.journal
+        diff['booktitle_web'] = diff.booktitle
+        diff.to_sql('bib', conn, if_exists="append", index=False)
+
+    # handle duplicate ids
+    print('Checking for duplicate IDs ...')
+    df = pd.read_sql_query("SELECT * FROM bib", conn)
+    df['ID'] = rename_duplicates(df['ID'])
+    df.to_sql('bib', conn, if_exists="replace", index=False)
+
     return
+
+def rename_duplicates(series):
+    counts = {}
+    result = []
+    for val in series:
+        counts[val] = counts.get(val, 0) + 1
+        if counts[val] == 1:
+            result.append(val)  # first occurrence, keep original
+        else:
+            print(f'{val}: detected duplicate ...')
+            result.append(f"{val}{counts[val]}")
+    return result
 
 @cli.command()
 def db2html():

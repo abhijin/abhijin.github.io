@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/github/abhijin.github.io/work/
+python ../scripts/papers.py scholar2db
