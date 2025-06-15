@@ -4,30 +4,30 @@
           <ul class="ul-research-papers">
 
     <li><p>
-        Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing.
-        Oishee&nbspBintey Hoque, Nibir Chandra&nbspMandal, Abhijin&nbspAdiga, Samarth&nbspSwarup, Sayjro&nbspKossi Nouwakpo, Amanda&nbspWilson and Madhav&nbspMarathe.
-        arXiv e-prints, 2025.<br>
+        Graph-Based Prediction of Spatio-Temporal Vaccine Hesitancy From Insurance Claims Data.
+        Sifat Afroj&nbspMoon, Rituparna&nbspDatta, Tanvir&nbspFerdousi, Hannah&nbspBaek, Abhijin&nbspAdiga, Achla&nbspMarathe and Anil&nbspVullikanti.
+        IEEE Access, 2025.<br>
+    
+    </p></li>
+
+    <li><p>
+        IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation.
+        Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Aniruddha&nbspAdiga, Siddharth&nbspChaudhary, Madhav V&nbspMarathe, SS&nbspRavi, Kirti&nbspRajagopalan, Amanda&nbspWilson and Samarth&nbspSwarup.
+        arXiv, 2025.<br>
     
     </p></li>
 
     <li><p>
         Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing.
         Oishee Bintey&nbspHoque, Nibir Chandra&nbspMandal, Abhijin&nbspAdiga, Samarth&nbspSwarup, Sayjro Kossi&nbspNouwakpo, Amanda&nbspWilson and Madhav&nbspMarathe.
-        arXiv preprint arXiv:2505.08302, 2025.<br>
+        arXiv, 2025.<br>
     
     </p></li>
 
     <li><p>
         IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping.
         Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Samarth&nbspSwarup, Mandy&nbspWilson, Lu&nbspFeng, Yangfeng&nbspJi, Miaomiao&nbspZhang, Geoffrey&nbspFox and Madhav&nbspMarathe.
-        arXiv preprint arXiv:2505.08273, 2025.<br>
-    
-    </p></li>
-
-    <li><p>
-        Graph-based Prediction of Spatio-Temporal Vaccine Hesitancy from Insurance Claims Data.
-        Sifat Afroj&nbspMoon, Rituparna&nbspDatta, Tanvir&nbspFerdousi, Hannah&nbspBaek, Abhijin&nbspAdiga, Achla&nbspMarathe and Anil&nbspVullikanti.
-        IEEE Access, 2025.<br>
+        arXiv, 2025.<br>
     
     </p></li>
 
@@ -62,7 +62,7 @@
     <li><p>
         Efficient PAC learnability of dynamical systems over multilayer networks.
         Zirou&nbspQiu, Abhijin&nbspAdiga, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns and Anil&nbspVullikanti.
-        arXiv preprint arXiv:2405.06884, 2024.<br>
+        arXiv, 2024.<br>
     
     </p></li>
 
@@ -76,7 +76,7 @@
     <li><p>
         A High-Resolution, US-scale Digital Similar of Interacting Livestock, Wild Birds, and Human Ecosystems with Applications to Multi-host Epidemic Spread.
         Abhijin&nbspAdiga, Ayush&nbspChopra, Mandy L&nbspWilson, SS&nbspRavi, Dawen&nbspXie, Samarth&nbspSwarup, Bryan&nbspLewis, John&nbspBarnes, Ramesh&nbspRaskar and Madhav V&nbspMarathe.
-        arXiv preprint arXiv:2411.01386, 2024.<br>
+        arXiv, 2024.<br>
     
     </p></li>
 
@@ -132,7 +132,7 @@
     <li><p>
         Perturbative methods for mostly monotonic probabilistic satisfiability problems.
         Stephen&nbspEubank, Madhurima&nbspNath, Yihui&nbspRen and Abhijin&nbspAdiga.
-        arXiv preprint arXiv:2206.03550, 2022.<br>
+        arXiv, 2022.<br>
     
     </p></li>
 
@@ -160,7 +160,7 @@
     <li><p>
         Effective social network-based allocation of COVID-19 vaccines.
         Jiangzhuo&nbspChen, Stefan&nbspHoops, Achla&nbspMarathe, Henning&nbspMortveit, Bryan&nbspLewis, Srinivasan&nbspVenkatramanan, Arash&nbspHaddadan, Parantapa&nbspBhattacharya, Abhijin&nbspAdiga, Anil&nbspVullikanti and others.
-        Water (DS-FEW), 2022.<br>
+        KDD, 2022.<br>
     
     </p></li>
 
@@ -256,16 +256,16 @@
     </p></li>
 
     <li><p>
-        Modeling commodity flow in the context of invasive species spread: Study of Tuta absoluta in Nepal.
-        S&nbspVenkatramanan, S&nbspWu, B&nbspShi, A&nbspMarathe, M&nbspMarathe, S&nbspEubank, LP&nbspSah, AP&nbspGiri, LA&nbspColavito, KS&nbspNitin and others.
-        Crop Protection, 2020.<br>
+        Boolean Games: Inferring Agents' Goals Using Taxation Queries.
+        Abhijin&nbspAdiga, Sarit&nbspKraus, Oleg&nbspMaksimov and S. S.&nbspRavi.
+        Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, 2020.<br>
     
     </p></li>
 
     <li><p>
-        Boolean Games: Inferring Agents' Goals Using Taxation Queries.
-        Abhijin&nbspAdiga, Sarit&nbspKraus, Oleg&nbspMaksimov and S. S.&nbspRavi.
-        Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, 2020.<br>
+        Modeling commodity flow in the context of invasive species spread: Study of Tuta absoluta in Nepal.
+        S&nbspVenkatramanan, S&nbspWu, B&nbspShi, A&nbspMarathe, M&nbspMarathe, S&nbspEubank, LP&nbspSah, AP&nbspGiri, LA&nbspColavito, KS&nbspNitin and others.
+        Crop Protection, 2020.<br>
     
     </p></li>
 
@@ -298,9 +298,9 @@
     </p></li>
 
     <li><p>
-        PAC learnability of node functions in networked dynamical systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav&nbspMarathe, S&nbspRavi and Anil&nbspVullikanti.
-        ICML, 2019.<br>
+        Learning everywhere: Pervasive machine learning for effective high-performance computation.
+        Geoffrey&nbspFox, James A&nbspGlazier, JCS&nbspKadupitiya, Vikram&nbspJadhao, Minje&nbspKim, Judy&nbspQiu, James P&nbspSluka, Endre&nbspSomogyi, Madhav&nbspMarathe, Abhijin&nbspAdiga and others.
+        2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), 2019.<br>
     
     </p></li>
 
@@ -312,9 +312,9 @@
     </p></li>
 
     <li><p>
-        Learning everywhere: Pervasive machine learning for effective high-performance computation.
-        Geoffrey&nbspFox, James A&nbspGlazier, JCS&nbspKadupitiya, Vikram&nbspJadhao, Minje&nbspKim, Judy&nbspQiu, James P&nbspSluka, Endre&nbspSomogyi, Madhav&nbspMarathe, Abhijin&nbspAdiga and others.
-        2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), 2019.<br>
+        PAC learnability of node functions in networked dynamical systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav&nbspMarathe, S&nbspRavi and Anil&nbspVullikanti.
+        ICML, 2019.<br>
     
     </p></li>
 
@@ -340,34 +340,6 @@
     </p></li>
 
     <li><p>
-        Learning the behavior of a dynamical system via a “20 questions” approach.
-        Abhijin&nbspAdiga, Chris&nbspKuhlman, Madhav&nbspMarathe, Ravi&nbspSS, Daniel&nbspRosenkrantz and Richard&nbspStearns.
-        AAAI, 2018.<br>
-    
-    </p></li>
-
-    <li><p>
-        Inferring probabilistic contagion models over networks using active queries.
-        Abhijin&nbspAdiga, Vanessa&nbspCedeno-Mieles, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
-        CIKM, 2018.<br>
-    
-    </p></li>
-
-    <li><p>
-        Sublinear approximation algorithms for boxicity and related problems.
-        Abhijin&nbspAdiga, Jasine&nbspBabu and L Sunil&nbspChandran.
-        Discrete Applied Mathematics, 2018.<br>
-    
-    </p></li>
-
-    <li><p>
-        Inferring users' choice functions in networked social systems through active queries.
-        Abhijin&nbspAdiga, C&nbspKuhlman, M&nbspMarathe, S&nbspRavi, D&nbspRosenkrantz and D&nbspStearns.
-        The 7th International Workshop on Computational Social Choice (COMSOC-2018), 2018.<br>
-    
-    </p></li>
-
-    <li><p>
         Pest risk assessment of the fall armyworm, Spodoptera frugiperda in Egypt.
         EA&nbspHeinrichs, J&nbspSidhu, R&nbspMuniappan, A&nbspFayad, A&nbspAdiga, A&nbspMarathe, J&nbspMcnitt and S&nbspVenkatramanan.
         Feed the Future. The US Government’s Global Hunger and Food Security Initiative, 2018.<br>
@@ -382,9 +354,30 @@
     </p></li>
 
     <li><p>
-        Monitoring the spread and management of Tuta absoluta.
-        Amer&nbspFayad and Abhijin&nbspAdiga.
-        Current Science (00113891), 2017.<br>
+        Inferring users' choice functions in networked social systems through active queries.
+        Abhijin&nbspAdiga, C&nbspKuhlman, M&nbspMarathe, S&nbspRavi, D&nbspRosenkrantz and D&nbspStearns.
+        The 7th International Workshop on Computational Social Choice (COMSOC-2018), 2018.<br>
+    
+    </p></li>
+
+    <li><p>
+        Inferring probabilistic contagion models over networks using active queries.
+        Abhijin&nbspAdiga, Vanessa&nbspCedeno-Mieles, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        CIKM, 2018.<br>
+    
+    </p></li>
+
+    <li><p>
+        Learning the behavior of a dynamical system via a “20 questions” approach.
+        Abhijin&nbspAdiga, Chris&nbspKuhlman, Madhav&nbspMarathe, Ravi&nbspSS, Daniel&nbspRosenkrantz and Richard&nbspStearns.
+        AAAI, 2018.<br>
+    
+    </p></li>
+
+    <li><p>
+        Sublinear approximation algorithms for boxicity and related problems.
+        Abhijin&nbspAdiga, Jasine&nbspBabu and L Sunil&nbspChandran.
+        Discrete Applied Mathematics, 2018.<br>
     
     </p></li>
 
@@ -403,9 +396,9 @@
     </p></li>
 
     <li><p>
-        From the Western Palaearctic region to beyond: Tuta absoluta 10 years after invading Europe.
-        Mateus R&nbspCampos, Antonio&nbspBiondi, Abhijin&nbspAdiga, Raul NC&nbspGuedes and Nicolas&nbspDesneux.
-        Journal of Pest Science, 2017.<br>
+        A k-Median Based Online Algorithm for the Stochastic k-Server Problem.
+        Abhijin&nbspAdiga, Alexander D&nbspFriedman and Sharath&nbspRaghvendra.
+        International Workshop on Approximation and Online Algorithms, 2017.<br>
     
     </p></li>
 
@@ -417,9 +410,23 @@
     </p></li>
 
     <li><p>
-        A k-Median Based Online Algorithm for the Stochastic k-Server Problem.
-        Abhijin&nbspAdiga, Alexander D&nbspFriedman and Sharath&nbspRaghvendra.
-        International Workshop on Approximation and Online Algorithms, 2017.<br>
+        Monitoring the spread and management of Tuta absoluta.
+        Amer&nbspFayad and Abhijin&nbspAdiga.
+        Current Science (00113891), 2017.<br>
+    
+    </p></li>
+
+    <li><p>
+        From the Western Palaearctic region to beyond: Tuta absoluta 10 years after invading Europe.
+        Mateus R&nbspCampos, Antonio&nbspBiondi, Abhijin&nbspAdiga, Raul NC&nbspGuedes and Nicolas&nbspDesneux.
+        Journal of Pest Science, 2017.<br>
+    
+    </p></li>
+
+    <li><p>
+        To delay or not: temporal vaccination games on networks.
+        Abhijin&nbspAdiga, Srini&nbspVenkat and Anil&nbspVullikanti.
+        INFOCOM, 2016.<br>
     
     </p></li>
 
@@ -433,14 +440,7 @@
     <li><p>
         Towards an integrated network-based approach to modeling the dynamics of invasive plant pests.
         Srinivasan&nbspVenkatramanan, Abhijin&nbspAdiga, Achla&nbspMarathe, Stephen&nbspEubank, Madhav&nbspMarathe and Rangaswamy&nbspMuniappan.
-        KDD’2016 Workshop on Data Science for Food, Energy and, 2016.<br>
-    
-    </p></li>
-
-    <li><p>
-        To delay or not: temporal vaccination games on networks.
-        Abhijin&nbspAdiga, Srini&nbspVenkat and Anil&nbspVullikanti.
-        INFOCOM, 2016.<br>
+        KDD’2016 Workshop on Data Science for Food, Energy and Water (DS-FEW), 2016.<br>
     
     </p></li>
 
@@ -452,23 +452,9 @@
     </p></li>
 
     <li><p>
-        Complexity of inferring local transition functions of discrete dynamical systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
-        Implementation and Application of Automata: 20th International Conference, CIAA 2015, Ume{\aa}, Sweden, August 18-21, 2015, Proceedings 20, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
         Approximation algorithms for reducing the spectral radius to control epidemic spread.
         Sudip&nbspSaha, Abhijin&nbspAdiga, B Aditya&nbspPrakash and Anil Kumar S&nbspVullikanti.
         ICDM, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
-        Generating a synthetic population of the United States.
-        Abhijin&nbspAdiga, Aditya&nbspAgashe, Shaikh&nbspArifuzzaman, Christopher L&nbspBarrett, Richard J&nbspBeckman, Keith R&nbspBisset, Jiangzhuo&nbspChen, Youngyun&nbspChungbaek, Stephen G&nbspEubank, Sandeep&nbspGupta and others.
-        Network Dynamics and Simulation Science Laboratory, Tech. Rep. NDSSL, 2015.<br>
     
     </p></li>
 
@@ -480,9 +466,23 @@
     </p></li>
 
     <li><p>
+        Generating a synthetic population of the United States.
+        Abhijin&nbspAdiga, Aditya&nbspAgashe, Shaikh&nbspArifuzzaman, Christopher L&nbspBarrett, Richard J&nbspBeckman, Keith R&nbspBisset, Jiangzhuo&nbspChen, Youngyun&nbspChungbaek, Stephen G&nbspEubank, Sandeep&nbspGupta and others.
+        Network Dynamics and Simulation Science Laboratory, Tech. Rep. NDSSL, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
         Network structure and activity in Boolean networks.
         Abhijin&nbspAdiga, Hilton&nbspGalyean, Chris J&nbspKuhlman, Michael&nbspLevet, Henning S&nbspMortveit and Sichao&nbspWu.
         Cellular Automata and Discrete Complex Systems: 21st IFIP WG 1.5 International Workshop, AUTOMATA 2015, Turku, Finland, June 8-10, 2015. Proceedings 21, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
+        Complexity of inferring local transition functions of discrete dynamical systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        Implementation and Application of Automata: 20th International Conference, CIAA 2015, Ume{\aa}, Sweden, August 18-21, 2015, Proceedings 20, 2015.<br>
     
     </p></li>
 
@@ -501,20 +501,6 @@
     </p></li>
 
     <li><p>
-        Cubicity, degeneracy, and crossing number.
-        Abhijin&nbspAdiga, L Sunil&nbspChandran and Rogers&nbspMathew.
-        European Journal of Combinatorics, 2014.<br>
-    
-    </p></li>
-
-    <li><p>
-        Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions.
-        Abhijin&nbspAdiga and L Sunil&nbspChandran.
-        SIAM Journal on Discrete Mathematics, 2014.<br>
-    
-    </p></li>
-
-    <li><p>
         Lower bounds for boxicity.
         Abhijin&nbspAdiga, L Sunil&nbspChandran and Naveen&nbspSivadasan.
         Combinatorica, 2014.<br>
@@ -522,16 +508,16 @@
     </p></li>
 
     <li><p>
-        Equilibria in epidemic containment games.
-        Sudip&nbspSaha, Abhijin&nbspAdiga and Anil&nbspVullikanti.
-        AAAI, 2014.<br>
+        Limit cycle structure for dynamic bi-threshold systems.
+        Sichao&nbspWu, Abhijin&nbspAdiga and Henning S&nbspMortveit.
+        Theoretical Computer Science, 2014.<br>
     
     </p></li>
 
     <li><p>
-        Limit cycle structure for dynamic bi-threshold systems.
-        Sichao&nbspWu, Abhijin&nbspAdiga and Henning S&nbspMortveit.
-        Theoretical Computer Science, 2014.<br>
+        Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions.
+        Abhijin&nbspAdiga and L Sunil&nbspChandran.
+        SIAM Journal on Discrete Mathematics, 2014.<br>
     
     </p></li>
 
@@ -550,16 +536,16 @@
     </p></li>
 
     <li><p>
-        How robust is the core of a network?.
-        Abhijin&nbspAdiga and Anil Kumar S&nbspVullikanti.
-        PKDD, 2013.<br>
+        Cubicity, degeneracy, and crossing number.
+        Abhijin&nbspAdiga, L Sunil&nbspChandran and Rogers&nbspMathew.
+        European Journal of Combinatorics, 2014.<br>
     
     </p></li>
 
     <li><p>
-        Modeling urban transportation in the aftermath of a nuclear disaster: The role of human behavioral responses.
-        Abhijin&nbspAdiga, Madhav&nbspMarathe, Henning&nbspMortveit, Sichao&nbspWu and Samarth&nbspSwarup.
-        The Conference on Agent-Based Modeling in Transportation Planning and Operations, Blacksburg, VA, 2013.<br>
+        Equilibria in epidemic containment games.
+        Sudip&nbspSaha, Abhijin&nbspAdiga and Anil&nbspVullikanti.
+        AAAI, 2014.<br>
     
     </p></li>
 
@@ -571,16 +557,23 @@
     </p></li>
 
     <li><p>
-        Route stability in large-scale transportation systems.
-        Abhijin&nbspAdiga, Henning S&nbspMortveit and Sichao&nbspWu.
-        The Workshop on Multiagent Interaction Networks (MAIN), held in conjunction with AAMAS, 2013.<br>
+        Modeling urban transportation in the aftermath of a nuclear disaster: The role of human behavioral responses.
+        Abhijin&nbspAdiga, Madhav&nbspMarathe, Henning&nbspMortveit, Sichao&nbspWu and Samarth&nbspSwarup.
+        The Conference on Agent-Based Modeling in Transportation Planning and Operations, Blacksburg, VA, 2013.<br>
     
     </p></li>
 
     <li><p>
-        Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions.
-        Abhijin&nbspAdiga and Sunil L&nbspChandran.
-        Proceedings of the twenty-eighth annual symposium on Computational geometry, 2012.<br>
+        How robust is the core of a network?.
+        Abhijin&nbspAdiga and Anil Kumar S&nbspVullikanti.
+        PKDD, 2013.<br>
+    
+    </p></li>
+
+    <li><p>
+        Route stability in large-scale transportation systems.
+        Abhijin&nbspAdiga, Henning S&nbspMortveit and Sichao&nbspWu.
+        The Workshop on Multiagent Interaction Networks (MAIN), held in conjunction with AAMAS, 2013.<br>
     
     </p></li>
 
@@ -592,16 +585,16 @@
     </p></li>
 
     <li><p>
-        Boxicity and poset dimension.
-        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        SIAM Journal on Discrete Mathematics, 2011.<br>
+        Representing a cubic graph as the intersection graph of axis-parallel boxes in three dimensions.
+        Abhijin&nbspAdiga and Sunil L&nbspChandran.
+        Proceedings of the twenty-eighth annual symposium on Computational geometry, 2012.<br>
     
     </p></li>
 
     <li><p>
         Boxicity and poset dimension.
         Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        International Computing and Combinatorics Conference, 2010.<br>
+        SIAM Journal on Discrete Mathematics, 2011.<br>
     
     </p></li>
 
@@ -613,9 +606,23 @@
     </p></li>
 
     <li><p>
+        The hardness of approximating the boxicity, cubicity and threshold dimension of a graph.
+        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
+        Discrete applied mathematics, 2010.<br>
+    
+    </p></li>
+
+    <li><p>
         Computing with cells: membrane systems.
         Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
         Proceedings of the 16th annual international conference on Computing and combinatorics, 2010.<br>
+    
+    </p></li>
+
+    <li><p>
+        Boxicity and poset dimension.
+        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
+        International Computing and Combinatorics Conference, 2010.<br>
     
     </p></li>
 
@@ -627,9 +634,9 @@
     </p></li>
 
     <li><p>
-        The hardness of approximating the boxicity, cubicity and threshold dimension of a graph.
-        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        Discrete applied mathematics, 2010.<br>
+        Cubicity of interval graphs and the claw number.
+        Abhijin&nbspAdiga and L Sunil&nbspChandran.
+        Electronic Notes in Discrete Mathematics, 2009.<br>
     
     </p></li>
 

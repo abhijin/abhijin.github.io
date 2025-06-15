@@ -26,6 +26,7 @@ VENUE_MAP = {
         'International Conference on Data Mining': 'ICDM',
         'PKDD': 'PKDD',
         'ICASSP': 'ICASSP',
+        'arXiv': 'arXiv',
         }
 
 # Map LaTeX accents to characters
@@ -52,7 +53,7 @@ def cli():
 
 @cli.command()
 def scholar2db():
-    # load latest scholar (does not have to full file)
+    # load latest scholar (does not have to be full file)
     with open(INBIB, 'r') as f:
         bib = bibtexparser.load(f)
         df = pd.DataFrame(bib.entries)
@@ -65,8 +66,11 @@ def scholar2db():
     ## df.to_sql('bib', conn, if_exists='replace', index=False)
 
     # compare db with new data and remove duplicates in the new data
-    diff = df.merge(old_df[df.columns], how='left', indicator=True).query(
-            '_merge == "left_only"').drop(columns=['_merge'])
+    if df.shape[0]:
+        diff = df.merge(old_df[df.columns], how='left', indicator=True).query(
+                '_merge == "left_only"').drop(columns=['_merge'])
+    else:
+        diff = pd.DataFrame()
 
     if not diff.shape[0]:
         print('No new document to be added to database.')
@@ -83,7 +87,7 @@ def scholar2db():
     # handle duplicate ids
     print('Checking for duplicate IDs ...')
     df = pd.read_sql_query("SELECT * FROM bib", conn)
-    df['ID'] = rename_duplicates(df['ID'])
+    df['ID_new'] = rename_duplicates(df['ID'])
     df.to_sql('bib', conn, if_exists="replace", index=False)
 
     return
@@ -116,11 +120,15 @@ def db2html():
 
 def row2html(row, file=None):
     if row.booktitle is not None:
+        if row.booktitle_web is None:
+            raise ValueError(f'{row.ID_new}: booktitle_web is None')
         venue = shorten_venue(row.booktitle_web)
     elif row.journal is not None:
+        if row.journal_web is None:
+            raise ValueError(f'{row.ID_new}: journal_web is None')
         venue = shorten_venue(row.journal_web)
     else:
-        print(row.ID, 'Could not extract venue.')
+        print(row.ID_new, 'Could not extract venue.')
         return
     
     title = sub('\n', ' ', row.title_web)
@@ -176,7 +184,7 @@ def venue_type(row):
             if 'arXiv' in row.journal:
                 row.venue_type = 'preprint'
         else:
-            print(row.ID, 'Could not extract venue.')
+            print(row.ID_new, 'Could not extract venue.')
     
     return row
 
@@ -189,7 +197,7 @@ def df2bibentry(row):
   journal={%s},
   year={%s}
 }
-''' % (row.ID, row.title_new, row.author, row.journal, row.year)
+''' % (row.ID_new, row.title_new, row.author, row.journal, row.year)
     elif row.venue_type in ['conference', 'workshop']:
         bib = '''
 @inproceedings{%s,
@@ -198,7 +206,7 @@ def df2bibentry(row):
   booktitle={%s},
   year={%s}
 }
-''' % (row.ID, row.title_new, row.author, row.booktitle, row.year)
+''' % (row.ID_new, row.title_new, row.author, row.booktitle, row.year)
     else:
         bib = ''
     row['bib'] = bib
@@ -220,7 +228,7 @@ def db2cv():
 
     df = df.apply(venue_type, axis=1)
     df = df.apply(df2bibentry, axis=1)
-    df['bibentry'] = r'\item \bibentry{' + df.ID + '}'
+    df['bibentry'] = r'\item \bibentry{' + df.ID_new + '}'
 
     fd['bib'].write(''.join(df.bib.tolist()))
     fd['selected'].write('\n'.join(df[df.selected==1].bibentry.tolist()))
