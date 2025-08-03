@@ -1,18 +1,4 @@
-Abhijin Adiga is a research associate professor at the Biocomplexity
-Institute, University of Virginia.  Abhijin Adiga is a Research Associate
-Professor at the Biocomplexity Institute, University of Virginia. He
-develops computational frameworks to study complex systems that emerge from
-large-scale interactions across domains such as infectious disease
-dynamics, socio-environmental resilience, agriculture, and social systems.
-His work draws on and contributes to network science, simulation modeling,
-algorithm design, and machine learning. Central to his research are the
-development of realistic synthetic datasets (such as digital twins),
-data-driven simulation models, domain-informed algorithms, and the
-advancement of theoretical foundations underlying these complex systems.
-Much of his work is conducted in interdisciplinary team environments and
-has been supported by multiple funding agencies. He has led USDA- and
-USAID-funded projects focused on addressing real-world socio-technical
-challenges.
+Abhijin Adiga is a research associate professor at the Biocomplexity Institute, University of Virginia. He develops computational frameworks to study complex systems that emerge from large-scale interactions across domains such as infectious disease dynamics, socio-environmental resilience, agriculture, and social systems. His work draws on and contributes to network science, simulation modeling, algorithm design, and machine learning. Central to his research are the development of realistic synthetic datasets (such as digital twins), data-driven simulation models, domain-informed algorithms, and the advancement of theoretical foundations underlying these complex systems. Much of his work is conducted in interdisciplinary team environments and has been supported by multiple funding agencies. He has led USDA- and USAID-funded projects focused on addressing real-world socio-technical challenges.
 
 abhijin@virginia.edu
 https://abhijin.github.io/
