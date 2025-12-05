@@ -4,6 +4,13 @@
           <ul class="ul-research-papers">
 
     <li><p>
+        IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping.
+        Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Samarth&nbspSwarup, Mandy L&nbspWilson, Lu&nbspFeng, Yangfeng&nbspJi, Miaomiao&nbspZhang, Geoffrey&nbspFox and Madhav&nbspMarathe.
+        KDD, 2025.<br>
+    
+    </p></li>
+
+    <li><p>
         Graph-Based Prediction of Spatio-Temporal Vaccine Hesitancy From Insurance Claims Data.
         Sifat Afroj&nbspMoon, Rituparna&nbspDatta, Tanvir&nbspFerdousi, Hannah&nbspBaek, Abhijin&nbspAdiga, Achla&nbspMarathe and Anil&nbspVullikanti.
         IEEE Access, 2025.<br>
@@ -20,13 +27,6 @@
     <li><p>
         Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing.
         Oishee Bintey&nbspHoque, Nibir Chandra&nbspMandal, Abhijin&nbspAdiga, Samarth&nbspSwarup, Sayjro Kossi&nbspNouwakpo, Amanda&nbspWilson and Madhav&nbspMarathe.
-        arXiv, 2025.<br>
-    
-    </p></li>
-
-    <li><p>
-        IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping.
-        Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Samarth&nbspSwarup, Mandy&nbspWilson, Lu&nbspFeng, Yangfeng&nbspJi, Miaomiao&nbspZhang, Geoffrey&nbspFox and Madhav&nbspMarathe.
         arXiv, 2025.<br>
     
     </p></li>
