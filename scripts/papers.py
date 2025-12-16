@@ -1,5 +1,7 @@
 import bibtexparser
+#from bibtexparser.model import Entry
 import click
+#import hashlib
 import numpy as np
 import pandas as pd
 from pdb import set_trace
@@ -71,6 +73,7 @@ def scholar2db():
                 '_merge == "left_only"').drop(columns=['_merge'])
     else:
         diff = pd.DataFrame()
+    set_trace()
 
     if not diff.shape[0]:
         print('No new document to be added to database.')
