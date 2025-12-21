@@ -68,16 +68,15 @@
       <p>Welcome to my home page!</p>
 
       <p>
-I develop computational frameworks to study complex systems that emerge from
-large-scale interactions across diverse domains, including infectious disease
-dynamics, socio-environmental resilience, agriculture, and other socio-technical systems.
-Central to my research are the
-development of realistic synthetic datasets (like digital twins) and
-data-driven simulation models, the design of domain-informed algorithms,
-and the advancement of theoretical foundations underlying these complex
-systems.
-This research draws on and contributes to network science, simulation
-modeling, machine learning, algorithm design, and game theory.       </p>
+I develop computational frameworks to study complex systems that emerge
+from large-scale interactions across diverse domains such as infectious
+disease dynamics, socio-environmental resilience, and agriculture.  Central
+to my research are the development of realistic in silico representations
+(digital twins and simulation models), domain-informed algorithms, and the
+theoretical foundations of these complex systems.  Broadly, my research
+draws on and contributes to network science, simulation modeling, machine
+learning, algorithm design, and game theory.
+</p>
       <p>
         My work takes place in interdisciplinary team environments and has been supported by multiple funding agencies. I have led USDA- and USAID-funded projects that address real-world socio-technical challenges.
       </p>
