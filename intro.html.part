@@ -68,12 +68,15 @@
       <p>Welcome to my home page!</p>
 
       <p>
-      My work is at the intersection of network science, machine learning, and complex systems engineering.
-I develop computational frameworks to study socio-technical complex systems that emerge
+      with application to social problems
+      computational models could be included
+      integration of novel and traditional sources of data
+      
+I develop computational frameworks to study complex systems that emerge
 from large-scale interactions across diverse domains such as infectious
 disease dynamics, socio-environmental resilience, and agriculture.  Central
 to my research are the development of realistic in silico representations
-(digital twins and simulators), domain-informed algorithms, and the
+(digital twins and simulation systems), domain-informed algorithms, and the
 theoretical foundations of these complex systems.  Broadly, my research
 draws on and contributes to network science, modeling and simulation analytics, machine learning, algorithm design, and game theory.
 </p>
