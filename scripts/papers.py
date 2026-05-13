@@ -26,6 +26,7 @@ VENUE_MAP = {
         'International Conference on Information and Knowledge Management': 'CIKM',
         'International Conference on Computer Communications': 'INFOCOM',
         'International Conference on Data Mining': 'ICDM',
+        'Neural Information Processing Systems Datasets and Benchmarks Track': 'NeurIPS Datasets and Benchmarks Track',
         'PKDD': 'PKDD',
         'ICASSP': 'ICASSP',
         'arXiv': 'arXiv',
@@ -227,7 +228,6 @@ def db2cv():
     conn = sqlite3.connect(DB)
     df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
     df = df.sort_values('year', ascending=False)
-    set_trace()
 
     df = df.apply(venue_type, axis=1)
     df = df.apply(df2bibentry, axis=1)
