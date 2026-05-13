@@ -11,3 +11,7 @@ My webpage project
     * bib2html.py should use the database instead of bib
 * make papers a separate html file
 * make research website
+
+# how to update
+1. Google Scholar -> export first page to bibtex -> save as ``data/scholar.bib``
+1. ``./scripts/scholar2db``

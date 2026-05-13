@@ -73,7 +73,6 @@ def scholar2db():
                 '_merge == "left_only"').drop(columns=['_merge'])
     else:
         diff = pd.DataFrame()
-    set_trace()
 
     if not diff.shape[0]:
         print('No new document to be added to database.')
@@ -228,6 +227,7 @@ def db2cv():
     conn = sqlite3.connect(DB)
     df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
     df = df.sort_values('year', ascending=False)
+    set_trace()
 
     df = df.apply(venue_type, axis=1)
     df = df.apply(df2bibentry, axis=1)
