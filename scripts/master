@@ -1,0 +1,23 @@
+#!/bin/bash
+# Download scholar.bib (most recent publications should be enough).
+# Put it in $data
+function updatebib(){
+    cd ~/github/abhijin.github.io/work/
+    python ../scripts/papers.py scholar2db
+}
+
+function cv(){
+    cd ~/github/abhijin.github.io/cv
+    python ../scripts/papers.py db2cv
+    pdflatex cv_abhijin.tex
+    bibtex cv_abhijin
+    pdflatex cv_abhijin.tex
+    pdflatex cv_abhijin.tex
+}
+
+if [[ $# == 0 ]]; then
+   echo "Here are the options:"
+   grep "^function" $BASH_SOURCE | sed -e 's/function/  /' -e 's/[(){]//g' -e '/IGNORE/d'
+else
+   eval $1 $2 $3 $4
+fi

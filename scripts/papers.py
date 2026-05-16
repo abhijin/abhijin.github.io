@@ -60,6 +60,7 @@ def scholar2db():
     with open(INBIB, 'r') as f:
         bib = bibtexparser.load(f)
         df = pd.DataFrame(bib.entries)
+        df = df.where(pd.notna(df), None)
 
     # load db that contains old conversions
     conn = sqlite3.connect(DB)
@@ -78,13 +79,61 @@ def scholar2db():
     if not diff.shape[0]:
         print('No new document to be added to database.')
     else:
+        print('Checking if ID already exists ...')
+        # find the intersecting set of IDs resolve manually
+        intersecting_ids = set(diff.ID).intersection(set(old_df.ID))
+        retain_new_ids = set()
+        retain_old_ids = set()
+        if not intersecting_ids:
+            print('No intersecting IDs found.')
+        else:
+            for id in intersecting_ids:
+                print(f'{id} already exists in database ...')
+                print('--------------------------------------------------')
+                old_entry = old_df[old_df.ID == id][df.columns].iloc[0].sort_index()
+                new_entry = df[df.ID == id].iloc[0].sort_index()
+                differing = ~((old_entry == new_entry) | (old_entry.isna() & new_entry.isna()))
+                with pd.option_context('display.max_colwidth', None, 'display.max_rows', None):
+                    print('Old entry:')
+                    print(old_entry[differing].to_string(max_rows=None))
+                    print('--------------------------------------------------')
+                    print('New entry:')
+                    print(new_entry[differing].to_string(max_rows=None))
+                    print('--------------------------------------------------')
+                while True:
+                    choice = input('Keep [n]ew entry or [o]ld entry? ').strip().lower()
+                    if choice in ['n', 'new']:
+                        retain_new_ids.add(id)
+                        break
+                    if choice in ['o', 'old']:
+                        retain_old_ids.add(id)
+                        break
+                    print('Invalid choice. Enter n/new or o/old.')
+
+        if retain_old_ids:
+            diff = diff[~diff.ID.isin(retain_old_ids)]
+
+        if retain_new_ids:
+            print('Updating existing entries with selected new entries ...')
+            for id in retain_new_ids:
+                conn.execute('DELETE FROM bib WHERE ID = ?', (id,))
+            conn.commit()
+
         print('The following new entries will be added ...', diff.title.values)
 
         # concat with db
         diff['title_web'] = diff.title
         diff['title_new'] = diff.title
-        diff['journal_web'] = diff.journal
-        diff['booktitle_web'] = diff.booktitle
+        try:
+            diff['journal_web'] = diff.journal
+        except AttributeError:   # in case only conference papers are added
+            pass
+        try:
+            diff['booktitle_web'] = diff.booktitle
+        except AttributeError:   # in case only journal papers are added
+            pass
+
+        print('Adding new entries to database ...')
         diff.to_sql('bib', conn, if_exists="append", index=False)
 
     # handle duplicate ids
