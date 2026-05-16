@@ -4,16 +4,44 @@
           <ul class="ul-research-papers">
 
     <li><p>
-        IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping.
-        Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Samarth&nbspSwarup, Mandy L&nbspWilson, Lu&nbspFeng, Yangfeng&nbspJi, Miaomiao&nbspZhang, Geoffrey&nbspFox and Madhav&nbspMarathe.
-        KDD, 2025.<br>
+        Scenario-aware control of multipathway spread processes: Application to biological invasions.
+        Prathyush&nbspSambaturu, Manisha&nbspSudhir, Hongze&nbspChen, Anil&nbspVullikanti, Rangaswamy&nbspMuniappan and Abhijin&nbspAdiga.
+        PNAS nexus, 2026.<br>
     
     </p></li>
 
     <li><p>
-        Graph-Based Prediction of Spatio-Temporal Vaccine Hesitancy From Insurance Claims Data.
-        Sifat Afroj&nbspMoon, Rituparna&nbspDatta, Tanvir&nbspFerdousi, Hannah&nbspBaek, Abhijin&nbspAdiga, Achla&nbspMarathe and Anil&nbspVullikanti.
-        IEEE Access, 2025.<br>
+        Reconstructing Network Outbreaks under Group Surveillance.
+        Ritwick&nbspMishra, Abhijin&nbspAdiga and Anil&nbspVullikanti.
+        arXiv, 2026.<br>
+    
+    </p></li>
+
+    <li><p>
+        PRISM-CAFO: Prior-conditioned Remote-sensing Infrastructure Segmentation and Mapping for CAFOs.
+        Oishee Bintey&nbspHoque, Nibir Chandra&nbspMandal, Kyle&nbspLuong, Amanda&nbspWilson, Samarth&nbspSwarup, Madhav&nbspMarathe and Abhijin&nbspAdiga.
+        Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2026.<br>
+    
+    </p></li>
+
+    <li><p>
+        Information Theoretic Optimal Surveillance for Epidemic Prevalence in Networks.
+        Ritwick&nbspMishra, Abhijin&nbspAdiga, Madhav&nbspMarathe, SS&nbspRavi, Ravi&nbspTandon and Anil&nbspVullikanti.
+        AAAI, 2026.<br>
+    
+    </p></li>
+
+    <li><p>
+        Challenges in Identifying Illicit Actors in Financial Networks.
+        Amro A&nbspAljundi, Abhijin&nbspAdiga, Philip BK&nbspPotter, Samarth&nbspSwarup, Anil&nbspVullikanti and Madhav V&nbspMarathe.
+        2025 IEEE 7th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA), 2025.<br>
+    
+    </p></li>
+
+    <li><p>
+        A unifying information-theoretic perspective on evaluating generative models.
+        Alexis&nbspFox, Samarth&nbspSwarup and Abhijin&nbspAdiga.
+        AAAI, 2025.<br>
     
     </p></li>
 
@@ -25,16 +53,44 @@
     </p></li>
 
     <li><p>
-        Knowledge-Informed Deep Learning for Irrigation Type Mapping from Remote Sensing.
+        Facilitating Matches on Allocation Platforms.
+        Yohai&nbspTrabelsi, Abhijin&nbspAdiga, Yonatan&nbspAumann, Sarit&nbspKraus and SS&nbspRavi.
+        arXiv, 2025.<br>
+    
+    </p></li>
+
+    <li><p>
+        IrrMap: A Large-Scale Comprehensive Dataset for Irrigation Method Mapping.
+        Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Abhijin&nbspAdiga, Samarth&nbspSwarup, Mandy L&nbspWilson, Lu&nbspFeng, Yangfeng&nbspJi, Miaomiao&nbspZhang, Geoffrey&nbspFox and Madhav&nbspMarathe.
+        KDD, 2025.<br>
+    
+    </p></li>
+
+    <li><p>
+        Graph-based prediction of spatio-temporal vaccine hesitancy from insurance claims data.
+        Sifat Afroj&nbspMoon, Rituparna&nbspDatta, Tanvir&nbspFerdousi, Hannah&nbspBaek, Abhijin&nbspAdiga, Achla&nbspMarathe and Anil&nbspVullikanti.
+        IEEE Access, 2025.<br>
+    
+    </p></li>
+
+    <li><p>
+        Knowledge-informed deep learning for irrigation type mapping from remote sensing.
         Oishee Bintey&nbspHoque, Nibir Chandra&nbspMandal, Abhijin&nbspAdiga, Samarth&nbspSwarup, Sayjro Kossi&nbspNouwakpo, Amanda&nbspWilson and Madhav&nbspMarathe.
         arXiv, 2025.<br>
     
     </p></li>
 
     <li><p>
-        A Unifying Information-theoretic Perspective on Evaluating Generative Models.
-        Alexis&nbspFox, Samarth&nbspSwarup and Abhijin&nbspAdiga.
-        AAAI, 2025.<br>
+        Role of heterogeneity: National scale data-driven agent-based modeling for the us covid-19 scenario modeling hub.
+        Jiangzhuo&nbspChen, Parantapa&nbspBhattacharya, Stefan&nbspHoops, Dustin&nbspMachi, Abhijin&nbspAdiga, Henning&nbspMortveit, Srinivasan&nbspVenkatramanan, Bryan&nbspLewis and Madhav&nbspMarathe.
+        Epidemics, 2024.<br>
+    
+    </p></li>
+
+    <li><p>
+        A high-resolution, us-scale digital similar of interacting livestock, wild birds, and human ecosystems with applications to multi-host epidemic spread.
+        Abhijin&nbspAdiga, Ayush&nbspChopra, Mandy L&nbspWilson, SS&nbspRavi, Dawen&nbspXie, Samarth&nbspSwarup, Bryan&nbspLewis, Andrew&nbspWarren, John&nbspBarnes, Ramesh&nbspRaskar and others.
+        arXiv, 2024.<br>
     
     </p></li>
 
@@ -42,27 +98,6 @@
         Value-based Resource Matching with Fairness Criteria: Application to Agricultural Water Trading.
         Abhijin&nbspAdiga, Yohai&nbspTrabelsi, Tanvir&nbspFerdousi, Madhav&nbspMarathe, SS&nbspRavi, Samarth&nbspSwarup, Anil Kumar&nbspVullikanti, Mandy L&nbspWilson, Sarit&nbspKraus, Reetwika&nbspBasu and others.
         AAMAS, 2024.<br>
-    
-    </p></li>
-
-    <li><p>
-        A High-Resolution, US-scale Digital Similar of Interacting Livestock, Wild Birds, and Human Ecosystems with Applications to Multi-host Epidemic Spread.
-        Abhijin&nbspAdiga, Ayush&nbspChopra, Mandy L&nbspWilson, SS&nbspRavi, Dawen&nbspXie, Samarth&nbspSwarup, Bryan&nbspLewis, John&nbspBarnes, Ramesh&nbspRaskar and Madhav V&nbspMarathe.
-        arXiv, 2024.<br>
-    
-    </p></li>
-
-    <li><p>
-        Role of heterogeneity: National scale data-driven agent-based modeling for the US COVID-19 Scenario Modeling Hub.
-        Jiangzhuo&nbspChen, Parantapa&nbspBhattacharya, Stefan&nbspHoops, Dustin&nbspMachi, Abhijin&nbspAdiga, Henning&nbspMortveit, Srinivasan&nbspVenkatramanan, Bryan&nbspLewis and Madhav&nbspMarathe.
-        Epidemics, 2024.<br>
-    
-    </p></li>
-
-    <li><p>
-        Novel multi-cluster workflow system to support real-time HPC-enabled epidemic science: Investigating the impact of vaccine acceptance on COVID-19 spread.
-        Parantapa&nbspBhattacharya, Dustin&nbspMachi, Jiangzhuo&nbspChen, Stefan&nbspHoops, Bryan&nbspLewis, Henning&nbspMortveit, Srinivasan&nbspVenkatramanan, Mandy L&nbspWilson, Achla&nbspMarathe, Przemyslaw&nbspPorebski and others.
-        Journal of Parallel and Distributed Computing, 2024.<br>
     
     </p></li>
 
@@ -81,6 +116,13 @@
     </p></li>
 
     <li><p>
+        Novel multi-cluster workflow system to support real-time HPC-enabled epidemic science: Investigating the impact of vaccine acceptance on COVID-19 spread.
+        Parantapa&nbspBhattacharya, Dustin&nbspMachi, Jiangzhuo&nbspChen, Stefan&nbspHoops, Bryan&nbspLewis, Henning&nbspMortveit, Srinivasan&nbspVenkatramanan, Mandy L&nbspWilson, Achla&nbspMarathe, Przemyslaw&nbspPorebski and others.
+        Journal of parallel and distributed computing, 2024.<br>
+    
+    </p></li>
+
+    <li><p>
         Learning the topology and behavior of discrete dynamical systems.
         Zirou&nbspQiu, Abhijin&nbspAdiga, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns and Anil&nbspVullikanti.
         AAAI, 2024.<br>
@@ -88,9 +130,9 @@
     </p></li>
 
     <li><p>
-        A Machine Learning Framework to Explain Complex Geospatial Simulations: A Climate Change Case Study.
-        Tanvir&nbspFerdousi, Abhijin&nbspAdiga, Mandy&nbspWilson, SS&nbspRavi, Anil&nbspVullikanti, Madhav V&nbspMarathe, Samarth&nbspSwarup, Mingliang&nbspLiu, Kirti&nbspRajagopalan and Jennifer&nbspAdam.
-        WSC, 2023.<br>
+        Resource sharing through multi-round matchings.
+        Yohai&nbspTrabelsi, Abhijin&nbspAdiga, Sarit&nbspKraus, SS&nbspRavi and Daniel J&nbspRosenkrantz.
+        AAAI, 2023.<br>
     
     </p></li>
 
@@ -109,9 +151,16 @@
     </p></li>
 
     <li><p>
-        Resource sharing through multi-round matchings.
-        Yohai&nbspTrabelsi, Abhijin&nbspAdiga, Sarit&nbspKraus, SS&nbspRavi and Daniel J&nbspRosenkrantz.
-        AAAI, 2023.<br>
+        A Network-based Analytics Framework for High-Resolution Agent-based Epidemic Simulation Ensembles.
+        Amro Alabsi&nbspAljundi, Galen&nbspHarrison, Jiangzhuo&nbspChen, Madhav V&nbspMarathe, Henning&nbspMortveit, Anil&nbspVullikanti and Abhijin&nbspAdiga.
+        WSC, 2023.<br>
+    
+    </p></li>
+
+    <li><p>
+        A Machine Learning Framework to Explain Complex Geospatial Simulations: A Climate Change Case Study.
+        Tanvir&nbspFerdousi, Abhijin&nbspAdiga, Mandy&nbspWilson, SS&nbspRavi, Anil&nbspVullikanti, Madhav V&nbspMarathe, Samarth&nbspSwarup, Mingliang&nbspLiu, Kirti&nbspRajagopalan and Jennifer&nbspAdam.
+        WSC, 2023.<br>
     
     </p></li>
 
@@ -119,13 +168,6 @@
         Identifying Complicated Contagion Scenarios from Cascade Data.
         Galen&nbspHarrison, Amro&nbspAlabsi Aljundi, Jiangzhuo&nbspChen, SS&nbspRavi, Anil Kumar&nbspVullikanti, Madhav V&nbspMarathe and Abhijin&nbspAdiga.
         KDD, 2023.<br>
-    
-    </p></li>
-
-    <li><p>
-        A Network-based Analytics Framework for High-Resolution Agent-based Epidemic Simulation Ensembles.
-        Amro Alabsi&nbspAljundi, Galen&nbspHarrison, Jiangzhuo&nbspChen, Madhav V&nbspMarathe, Henning&nbspMortveit, Anil&nbspVullikanti and Abhijin&nbspAdiga.
-        WSC, 2023.<br>
     
     </p></li>
 
@@ -144,13 +186,6 @@
     </p></li>
 
     <li><p>
-        Network models and simulation analytics for multi-scale dynamics of biological invasions.
-        Abhijin&nbspAdiga, Nicholas&nbspPalmer, Young Yun&nbspBaek, Henning&nbspMortveit and SS&nbspRavi.
-        Frontiers in Big Data, 2022.<br>
-    
-    </p></li>
-
-    <li><p>
         Community detection using Moore-Shannon network reliability: application to food networks.
         Ritwick&nbspMishra, Stephen&nbspEubank, Madhurima&nbspNath, Manu&nbspAmundsen and Abhijin&nbspAdiga.
         Complex Networks, 2022.<br>
@@ -158,16 +193,16 @@
     </p></li>
 
     <li><p>
-        Effective social network-based allocation of COVID-19 vaccines.
-        Jiangzhuo&nbspChen, Stefan&nbspHoops, Achla&nbspMarathe, Henning&nbspMortveit, Bryan&nbspLewis, Srinivasan&nbspVenkatramanan, Arash&nbspHaddadan, Parantapa&nbspBhattacharya, Abhijin&nbspAdiga, Anil&nbspVullikanti and others.
-        KDD, 2022.<br>
+        Maximizing Resource Allocation Likelihood with Minimum Compromise.
+        Yohai&nbspTrabelsi, Abhijin&nbspAdiga, Sarit&nbspKraus and SS&nbspRavi.
+        AAMAS, 2022.<br>
     
     </p></li>
 
     <li><p>
-        Maximizing Resource Allocation Likelihood with Minimum Compromise.
-        Yohai&nbspTrabelsi, Abhijin&nbspAdiga, Sarit&nbspKraus and SS&nbspRavi.
-        AAMAS, 2022.<br>
+        Network models and simulation analytics for multi-scale dynamics of biological invasions.
+        Abhijin&nbspAdiga, Nicholas&nbspPalmer, Young Yun&nbspBaek, Henning&nbspMortveit and SS&nbspRavi.
+        Frontiers in Big Data, 2022.<br>
     
     </p></li>
 
@@ -193,6 +228,20 @@
     </p></li>
 
     <li><p>
+        Effective social network-based allocation of COVID-19 vaccines.
+        Jiangzhuo&nbspChen, Stefan&nbspHoops, Achla&nbspMarathe, Henning&nbspMortveit, Bryan&nbspLewis, Srinivasan&nbspVenkatramanan, Arash&nbspHaddadan, Parantapa&nbspBhattacharya, Abhijin&nbspAdiga, Anil&nbspVullikanti and others.
+        KDD, 2022.<br>
+    
+    </p></li>
+
+    <li><p>
+        Thermal biology of Tuta absoluta: demographic parameters and facultative diapause.
+        Mateus Ribeiro&nbspde Campos, Philippe&nbspBéarez, Edwige&nbspAmiens-Desneux, Luigi&nbspPonti, Andrew Paul&nbspGutierrez, Antonio&nbspBiondi, Abhijin&nbspAdiga and Nicolas&nbspDesneux.
+        Journal of Pest Science, 2021.<br>
+    
+    </p></li>
+
+    <li><p>
         AI-driven agent-based models to study the role of vaccine acceptance in controlling COVID-19 spread in the US.
         Parantapa&nbspBhattacharya, Dustin&nbspMachi, Jiangzhuo&nbspChen, Stefan&nbspHoops, Bryan&nbspLewis, Henning&nbspMortveit, Srinivasan&nbspVenkatramanan, Mandy L&nbspWilson, Achla&nbspMarathe, Przemyslaw&nbspPorebski and others.
         IEEE Big Data, 2021.<br>
@@ -207,6 +256,13 @@
     </p></li>
 
     <li><p>
+        Realistic commodity flow networks to assess vulnerability of food systems.
+        Abhijin&nbspAdiga, Nicholas&nbspPalmer, Sanchit&nbspSinha, Penina&nbspWaghalter, Aniruddha&nbspDave, Daniel Perez&nbspLazarte, Thierry&nbspBrévault, Andrea&nbspApolloni, Henning&nbspMortveit, Young Yun&nbspBaek and others.
+        Complex Networks, 2021.<br>
+    
+    </p></li>
+
+    <li><p>
         Prioritizing allocation of COVID-19 vaccines based on social contacts increases vaccination effectiveness.
         Jiangzhuo&nbspChen, Stefan&nbspHoops, Achla&nbspMarathe, Henning&nbspMortveit, Bryan&nbspLewis, Srinivasan&nbspVenkatramanan, Arash&nbspHaddadan, Parantapa&nbspBhattacharya, Abhijin&nbspAdiga, Anil&nbspVullikanti and others.
         MedRxiv, 2021.<br>
@@ -214,16 +270,16 @@
     </p></li>
 
     <li><p>
-        Thermal biology of Tuta absoluta: demographic parameters and facultative diapause.
-        Mateus Ribeiro&nbspde Campos, Philippe&nbspBéarez, Edwige&nbspAmiens-Desneux, Luigi&nbspPonti, Andrew Paul&nbspGutierrez, Antonio&nbspBiondi, Abhijin&nbspAdiga and Nicolas&nbspDesneux.
-        Journal of Pest Science, 2021.<br>
+        Modeling commodity flow in the context of invasive species spread: Study of Tuta absoluta in Nepal.
+        S&nbspVenkatramanan, S&nbspWu, B&nbspShi, A&nbspMarathe, M&nbspMarathe, S&nbspEubank, LP&nbspSah, AP&nbspGiri, LA&nbspColavito, KS&nbspNitin and others.
+        Crop Protection, 2020.<br>
     
     </p></li>
 
     <li><p>
-        Learning coalition-based interactions in networked social systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns and Anil&nbspVullikanti.
-        AAAI, 2020.<br>
+        Predicting the current and future distribution of the invasive weed Ageratina adenophora in the Chitwan--Annapurna Landscape, Nepal.
+        Anju Sharma&nbspPoudel, Bharat Babu&nbspShrestha, Mohan Dev&nbspJoshi, Rangaswamy&nbspMuniappan, Abhijin&nbspAdiga, Srinivasan&nbspVenkatramanan and Pramod Kumar&nbspJha.
+        Mountain Research and Development, 2020.<br>
     
     </p></li>
 
@@ -235,9 +291,9 @@
     </p></li>
 
     <li><p>
-        Predicting the current and future distribution of the invasive weed Ageratina adenophora in the Chitwan--Annapurna Landscape, Nepal.
-        Anju Sharma&nbspPoudel, Bharat Babu&nbspShrestha, Mohan Dev&nbspJoshi, Rangaswamy&nbspMuniappan, Abhijin&nbspAdiga, Srinivasan&nbspVenkatramanan and Pramod Kumar&nbspJha.
-        Mountain Research and Development, 2020.<br>
+        Learning coalition-based interactions in networked social systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns and Anil&nbspVullikanti.
+        AAAI, 2020.<br>
     
     </p></li>
 
@@ -256,16 +312,16 @@
     </p></li>
 
     <li><p>
-        Modeling commodity flow in the context of invasive species spread: Study of Tuta absoluta in Nepal.
-        S&nbspVenkatramanan, S&nbspWu, B&nbspShi, A&nbspMarathe, M&nbspMarathe, S&nbspEubank, LP&nbspSah, AP&nbspGiri, LA&nbspColavito, KS&nbspNitin and others.
-        Crop Protection, 2020.<br>
+        Validating agent-based models of large networked systems.
+        Abhijin&nbspAdiga, Chris&nbspBarrett, Stephen&nbspEubank, Chris J&nbspKuhlman, Madhav V&nbspMarathe, Henning&nbspMortveit, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns, Samarth&nbspSwarup and others.
+        WSC, 2019.<br>
     
     </p></li>
 
     <li><p>
-        Mechanistic and data-driven agent-based models to explain human behavior in online networked group anagram games.
-        Vanessa&nbspCedeno-Mieles, Zhihao&nbspHu, Xinwei&nbspDeng, Yihui&nbspRen, Abhijin&nbspAdiga, Christopher&nbspBarrett, Saliya&nbspEkanayake, Gizem&nbspKorkmaz, Chris J&nbspKuhlman, Dustin&nbspMachi and others.
-        Proceedings of the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, 2019.<br>
+        Predicting suitable habitat of an invasive weed Parthenium hysterophorus under future climate scenarios in Chitwan Annapurna Landscape, Nepal.
+        Seerjana&nbspMaharjan, Bharat Babu&nbspShrestha, Mohan Dev&nbspJoshi, Anjana&nbspDevkota, Rangaswamy&nbspMuniappan, Abhijin&nbspAdiga and Pramod Kumar&nbspJha.
+        Journal of Mountain Science, 2019.<br>
     
     </p></li>
 
@@ -291,6 +347,27 @@
     </p></li>
 
     <li><p>
+        PAC learnability of node functions in networked dynamical systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav&nbspMarathe, S&nbspRavi and Anil&nbspVullikanti.
+        ICML, 2019.<br>
+    
+    </p></li>
+
+    <li><p>
+        On the modeling and agent-based simulation of a cooperative group anagram game.
+        Zhihao&nbspHu, Xinwei&nbspDeng, Brian J&nbspGoode, Naren&nbspRamakrishnan, Parang&nbspSaraf, Nathan&nbspSelf, Abhijin&nbspAdiga, Gizem&nbspKorkmaz, Chris J&nbspKuhlman, Dustin&nbspMachi and others.
+        WSC, 2019.<br>
+    
+    </p></li>
+
+    <li><p>
+        Mechanistic and data-driven agent-based models to explain human behavior in online networked group anagram games.
+        Vanessa&nbspCedeno-Mieles, Zhihao&nbspHu, Xinwei&nbspDeng, Yihui&nbspRen, Abhijin&nbspAdiga, Christopher&nbspBarrett, Saliya&nbspEkanayake, Gizem&nbspKorkmaz, Chris J&nbspKuhlman, Dustin&nbspMachi and others.
+        Proceedings of the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, 2019.<br>
+    
+    </p></li>
+
+    <li><p>
         Graphical dynamical systems and their applications to bio-social systems.
         Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, Henning S&nbspMortveit, SS&nbspRavi and Anil&nbspVullikanti.
         International Journal of Advances in Engineering Sciences and Applied Mathematics, 2019.<br>
@@ -305,37 +382,16 @@
     </p></li>
 
     <li><p>
-        Validating agent-based models of large networked systems.
-        Abhijin&nbspAdiga, Chris&nbspBarrett, Stephen&nbspEubank, Chris J&nbspKuhlman, Madhav V&nbspMarathe, Henning&nbspMortveit, SS&nbspRavi, Daniel J&nbspRosenkrantz, Richard E&nbspStearns, Samarth&nbspSwarup and others.
-        WSC, 2019.<br>
+        Using Active Queries to Learn Local Stochastic Behaviors in Social Networks.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        International Conference on Complex Networks and their Applications, 2018.<br>
     
     </p></li>
 
     <li><p>
-        PAC learnability of node functions in networked dynamical systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav&nbspMarathe, S&nbspRavi and Anil&nbspVullikanti.
-        ICML, 2019.<br>
-    
-    </p></li>
-
-    <li><p>
-        Predicting suitable habitat of an invasive weed Parthenium hysterophorus under future climate scenarios in Chitwan Annapurna Landscape, Nepal.
-        Seerjana&nbspMaharjan, Bharat Babu&nbspShrestha, Mohan Dev&nbspJoshi, Anjana&nbspDevkota, Rangaswamy&nbspMuniappan, Abhijin&nbspAdiga and Pramod Kumar&nbspJha.
-        Journal of Mountain Science, 2019.<br>
-    
-    </p></li>
-
-    <li><p>
-        On the modeling and agent-based simulation of a cooperative group anagram game.
-        Zhihao&nbspHu, Xinwei&nbspDeng, Brian J&nbspGoode, Naren&nbspRamakrishnan, Parang&nbspSaraf, Nathan&nbspSelf, Abhijin&nbspAdiga, Gizem&nbspKorkmaz, Chris J&nbspKuhlman, Dustin&nbspMachi and others.
-        WSC, 2019.<br>
-    
-    </p></li>
-
-    <li><p>
-        Inferring users' choice functions in networked social systems through active queries.
-        Abhijin&nbspAdiga, C&nbspKuhlman, M&nbspMarathe, S&nbspRavi, D&nbspRosenkrantz and D&nbspStearns.
-        The 7th International Workshop on Computational Social Choice (COMSOC-2018), 2018.<br>
+        Using network reliability to understand international food trade dynamics.
+        Madhurima&nbspNath, Srinivasan&nbspVenkatramanan, Bryan&nbspKaperick, Stephen&nbspEubank, Madhav V&nbspMarathe, Achla&nbspMarathe and Abhijin&nbspAdiga.
+        International Conference on Complex Networks and their Applications, 2018.<br>
     
     </p></li>
 
@@ -347,9 +403,16 @@
     </p></li>
 
     <li><p>
-        Disparities in spread and control of influenza in slums of Delhi: findings from an agent-based modelling study.
-        Abhijin&nbspAdiga, Shuyu&nbspChu, Stephen&nbspEubank, Christopher J&nbspKuhlman, Bryan&nbspLewis, Achla&nbspMarathe, Madhav&nbspMarathe, Eric K&nbspNordberg, Samarth&nbspSwarup, Anil&nbspVullikanti and others.
-        BMJ open, 2018.<br>
+        Inferring probabilistic contagion models over networks using active queries.
+        Abhijin&nbspAdiga, Vanessa&nbspCedeno-Mieles, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        CIKM, 2018.<br>
+    
+    </p></li>
+
+    <li><p>
+        Inferring users' choice functions in networked social systems through active queries.
+        Abhijin&nbspAdiga, C&nbspKuhlman, M&nbspMarathe, S&nbspRavi, D&nbspRosenkrantz and D&nbspStearns.
+        The 7th International Workshop on Computational Social Choice (COMSOC-2018), 2018.<br>
     
     </p></li>
 
@@ -368,16 +431,16 @@
     </p></li>
 
     <li><p>
-        Inferring probabilistic contagion models over networks using active queries.
-        Abhijin&nbspAdiga, Vanessa&nbspCedeno-Mieles, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
-        CIKM, 2018.<br>
+        Disparities in spread and control of influenza in slums of Delhi: findings from an agent-based modelling study.
+        Abhijin&nbspAdiga, Shuyu&nbspChu, Stephen&nbspEubank, Christopher J&nbspKuhlman, Bryan&nbspLewis, Achla&nbspMarathe, Madhav&nbspMarathe, Eric K&nbspNordberg, Samarth&nbspSwarup, Anil&nbspVullikanti and others.
+        BMJ open, 2018.<br>
     
     </p></li>
 
     <li><p>
-        A k-Median Based Online Algorithm for the Stochastic k-Server Problem.
-        Abhijin&nbspAdiga, Alexander D&nbspFriedman and Sharath&nbspRaghvendra.
-        International Workshop on Approximation and Online Algorithms, 2017.<br>
+        Inferring local transition functions of discrete dynamical systems from observations of system behavior.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        Theoretical Computer Science, 2017.<br>
     
     </p></li>
 
@@ -396,13 +459,6 @@
     </p></li>
 
     <li><p>
-        Monitoring the spread and management of Tuta absoluta.
-        Amer&nbspFayad and Abhijin&nbspAdiga.
-        Current Science (00113891), 2017.<br>
-    
-    </p></li>
-
-    <li><p>
         From the Western Palaearctic region to beyond: Tuta absoluta 10 years after invading Europe.
         Mateus R&nbspCampos, Antonio&nbspBiondi, Abhijin&nbspAdiga, Raul NC&nbspGuedes and Nicolas&nbspDesneux.
         Journal of Pest Science, 2017.<br>
@@ -410,23 +466,16 @@
     </p></li>
 
     <li><p>
-        Inferring local transition functions of discrete dynamical systems from observations of system behavior.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
-        Theoretical Computer Science, 2017.<br>
+        Monitoring the spread and management of Tuta absoluta.
+        Amer&nbspFayad and Abhijin&nbspAdiga.
+        Current Science (00113891), 2017.<br>
     
     </p></li>
 
     <li><p>
-        Temporal vaccination games under resource constraints.
-        Abhijin&nbspAdiga and Anil&nbspVullikanti.
-        AAAI, 2016.<br>
-    
-    </p></li>
-
-    <li><p>
-        To delay or not: temporal vaccination games on networks.
-        Abhijin&nbspAdiga, Srini&nbspVenkat and Anil&nbspVullikanti.
-        INFOCOM, 2016.<br>
+        A k-Median Based Online Algorithm for the Stochastic k-Server Problem.
+        Abhijin&nbspAdiga, Alexander D&nbspFriedman and Sharath&nbspRaghvendra.
+        International Workshop on Approximation and Online Algorithms, 2017.<br>
     
     </p></li>
 
@@ -438,6 +487,13 @@
     </p></li>
 
     <li><p>
+        Temporal vaccination games under resource constraints.
+        Abhijin&nbspAdiga and Anil&nbspVullikanti.
+        AAAI, 2016.<br>
+    
+    </p></li>
+
+    <li><p>
         Near-optimal algorithms for controlling propagation at group scale on networks.
         Yao&nbspZhang, Abhijin&nbspAdiga, Sudip&nbspSaha, Anil&nbspVullikanti and B Aditya&nbspPrakash.
         IEEE Transactions on Knowledge and Data Engineering, 2016.<br>
@@ -445,37 +501,9 @@
     </p></li>
 
     <li><p>
-        Synthetic populations for epidemic modeling.
-        Abhijin&nbspAdiga, Richard&nbspBeckman, Keith&nbspBisset, Jiangzhuo&nbspChen, Youngyun&nbspChungbaek, Stephen&nbspEubank, HS&nbspMarathe, E&nbspNordberg, C&nbspRivers, P&nbspStretz and others.
-        Proceedings of the International Conference on Computation and Social Sciences (ICCSS), Helsinki, Finland, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
-        Controlling propagation at group scale on networks.
-        Yao&nbspZhang, Abhijin&nbspAdiga, Anil&nbspVullikanti and B Aditya&nbspPrakash.
-        ICDM, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
-        Complexity of inferring local transition functions of discrete dynamical systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
-        Implementation and Application of Automata: 20th International Conference, CIAA 2015, Ume{\aa}, Sweden, August 18-21, 2015, Proceedings 20, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
-        Effect of graph structure on the limit sets of threshold dynamical systems.
-        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Henning S&nbspMortveit and Sichao&nbspWu.
-        Cellular Automata and Discrete Complex Systems: 21st IFIP WG 1.5 International Workshop, AUTOMATA 2015, Turku, Finland, June 8-10, 2015. Proceedings 21, 2015.<br>
-    
-    </p></li>
-
-    <li><p>
-        Approximation algorithms for reducing the spectral radius to control epidemic spread.
-        Sudip&nbspSaha, Abhijin&nbspAdiga, B Aditya&nbspPrakash and Anil Kumar S&nbspVullikanti.
-        ICDM, 2015.<br>
+        To delay or not: temporal vaccination games on networks.
+        Abhijin&nbspAdiga, Srini&nbspVenkat and Anil&nbspVullikanti.
+        INFOCOM, 2016.<br>
     
     </p></li>
 
@@ -487,6 +515,13 @@
     </p></li>
 
     <li><p>
+        Complexity of inferring local transition functions of discrete dynamical systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Madhav V&nbspMarathe, SS&nbspRavi, Daniel J&nbspRosenkrantz and Richard E&nbspStearns.
+        Implementation and Application of Automata: 20th International Conference, CIAA 2015, Ume{\aa}, Sweden, August 18-21, 2015, Proceedings 20, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
         Network structure and activity in Boolean networks.
         Abhijin&nbspAdiga, Hilton&nbspGalyean, Chris J&nbspKuhlman, Michael&nbspLevet, Henning S&nbspMortveit and Sichao&nbspWu.
         Cellular Automata and Discrete Complex Systems: 21st IFIP WG 1.5 International Workshop, AUTOMATA 2015, Turku, Finland, June 8-10, 2015. Proceedings 21, 2015.<br>
@@ -494,9 +529,30 @@
     </p></li>
 
     <li><p>
-        Lower bounds for boxicity.
-        Abhijin&nbspAdiga, L Sunil&nbspChandran and Naveen&nbspSivadasan.
-        Combinatorica, 2014.<br>
+        Effect of graph structure on the limit sets of threshold dynamical systems.
+        Abhijin&nbspAdiga, Chris J&nbspKuhlman, Henning S&nbspMortveit and Sichao&nbspWu.
+        Cellular Automata and Discrete Complex Systems: 21st IFIP WG 1.5 International Workshop, AUTOMATA 2015, Turku, Finland, June 8-10, 2015. Proceedings 21, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
+        Synthetic populations for epidemic modeling.
+        Abhijin&nbspAdiga, Richard&nbspBeckman, Keith&nbspBisset, Jiangzhuo&nbspChen, Youngyun&nbspChungbaek, Stephen&nbspEubank, HS&nbspMarathe, E&nbspNordberg, C&nbspRivers, P&nbspStretz and others.
+        Proceedings of the International Conference on Computation and Social Sciences (ICCSS), Helsinki, Finland, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
+        Approximation algorithms for reducing the spectral radius to control epidemic spread.
+        Sudip&nbspSaha, Abhijin&nbspAdiga, B Aditya&nbspPrakash and Anil Kumar S&nbspVullikanti.
+        ICDM, 2015.<br>
+    
+    </p></li>
+
+    <li><p>
+        Controlling propagation at group scale on networks.
+        Yao&nbspZhang, Abhijin&nbspAdiga, Anil&nbspVullikanti and B Aditya&nbspPrakash.
+        ICDM, 2015.<br>
     
     </p></li>
 
@@ -522,16 +578,9 @@
     </p></li>
 
     <li><p>
-        Equilibria in epidemic containment games.
-        Sudip&nbspSaha, Abhijin&nbspAdiga and Anil&nbspVullikanti.
-        AAAI, 2014.<br>
-    
-    </p></li>
-
-    <li><p>
-        Limit cycle structure for dynamic bi-threshold systems.
-        Sichao&nbspWu, Abhijin&nbspAdiga and Henning S&nbspMortveit.
-        Theoretical Computer Science, 2014.<br>
+        Lower bounds for boxicity.
+        Abhijin&nbspAdiga, L Sunil&nbspChandran and Naveen&nbspSivadasan.
+        Combinatorica, 2014.<br>
     
     </p></li>
 
@@ -543,16 +592,16 @@
     </p></li>
 
     <li><p>
-        How robust is the core of a network?.
-        Abhijin&nbspAdiga and Anil Kumar S&nbspVullikanti.
-        PKDD, 2013.<br>
+        Limit cycle structure for dynamic bi-threshold systems.
+        Sichao&nbspWu, Abhijin&nbspAdiga and Henning S&nbspMortveit.
+        Theoretical Computer Science, 2014.<br>
     
     </p></li>
 
     <li><p>
-        Subgraph enumeration in dynamic graphs.
-        Abhijin&nbspAdiga, Anil Kumar S&nbspVullikanti and Dante&nbspWiggins.
-        ICDM, 2013.<br>
+        Equilibria in epidemic containment games.
+        Sudip&nbspSaha, Abhijin&nbspAdiga and Anil&nbspVullikanti.
+        AAAI, 2014.<br>
     
     </p></li>
 
@@ -564,9 +613,9 @@
     </p></li>
 
     <li><p>
-        Route stability in large-scale transportation systems.
-        Abhijin&nbspAdiga, Henning S&nbspMortveit and Sichao&nbspWu.
-        The Workshop on Multiagent Interaction Networks (MAIN), held in conjunction with AAMAS, 2013.<br>
+        Subgraph enumeration in dynamic graphs.
+        Abhijin&nbspAdiga, Anil Kumar S&nbspVullikanti and Dante&nbspWiggins.
+        ICDM, 2013.<br>
     
     </p></li>
 
@@ -592,23 +641,9 @@
     </p></li>
 
     <li><p>
-        Computing with cells: membrane systems.
+        The hardness of approximating the boxicity, cubicity and threshold dimension of a graph.
         Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        Proceedings of the 16th annual international conference on Computing and combinatorics, 2010.<br>
-    
-    </p></li>
-
-    <li><p>
-        Cubicity of interval graphs and the claw number.
-        Abhijin&nbspAdiga and L Sunil&nbspChandran.
-        Journal of Graph Theory, 2010.<br>
-    
-    </p></li>
-
-    <li><p>
-        Boxicity and poset dimension.
-        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        International Computing and Combinatorics Conference, 2010.<br>
+        Discrete applied mathematics, 2010.<br>
     
     </p></li>
 
@@ -620,9 +655,23 @@
     </p></li>
 
     <li><p>
-        The hardness of approximating the boxicity, cubicity and threshold dimension of a graph.
+        Boxicity and poset dimension.
         Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
-        Discrete applied mathematics, 2010.<br>
+        International Computing and Combinatorics Conference, 2010.<br>
+    
+    </p></li>
+
+    <li><p>
+        Computing with cells: membrane systems.
+        Abhijin&nbspAdiga, Diptendu&nbspBhowmick and L Sunil&nbspChandran.
+        Proceedings of the 16th annual international conference on Computing and combinatorics, 2010.<br>
+    
+    </p></li>
+
+    <li><p>
+        Cubicity of interval graphs and the claw number.
+        Abhijin&nbspAdiga and L Sunil&nbspChandran.
+        Journal of Graph Theory, 2010.<br>
     
     </p></li>
 
@@ -644,6 +693,13 @@
         A design and implementation of orthonormal symmetric wavelet transform using PRCC filter banks.
         Abhijin&nbspAdiga, Kalpathi R&nbspRamakrishnan and BS&nbspAdiga.
         ICASSP, 2003.<br>
+    
+    </p></li>
+
+    <li><p>
+        IRRISIGHT: A Large-Scale Multimodal Dataset and Scalable Pipeline to Address Irrigation and Water Management in Agriculture.
+        Nibir Chandra&nbspMandal, Oishee Bintey&nbspHoque, Mandy L&nbspWilson, Samarth&nbspSwarup, Sayjro K&nbspNouwakpo, Abhijin&nbspAdiga and Madhav&nbspMarathe.
+        NeurIPS Datasets and Benchmarks Track, None.<br>
     
     </p></li>
 </ul>

@@ -124,6 +124,8 @@ def scholar2db():
         # concat with db
         diff['title_web'] = diff.title
         diff['title_new'] = diff.title
+        diff['selected'] = 0
+        diff['ignore'] = 0
         try:
             diff['journal_web'] = diff.journal
         except AttributeError:   # in case only conference papers are added

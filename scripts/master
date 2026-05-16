@@ -1,18 +1,23 @@
 #!/bin/bash
 # Download scholar.bib (most recent publications should be enough).
 # Put it in $data
-function updatebib(){
+function bib(){
     cd ~/github/abhijin.github.io/work/
     python ../scripts/papers.py scholar2db
 }
 
+# Generate files for CV
 function cv(){
     cd ~/github/abhijin.github.io/cv
     python ../scripts/papers.py db2cv
-    pdflatex cv_abhijin.tex
-    bibtex cv_abhijin
-    pdflatex cv_abhijin.tex
-    pdflatex cv_abhijin.tex
+}
+
+# Compile CV in cv/cv_abhijin.tex
+
+function web(){
+    cd ~/github/abhijin.github.io/
+    python scripts/papers.py db2html
+    cat intro.html.part papers.html.part end.html.part > index.html 
 }
 
 if [[ $# == 0 ]]; then

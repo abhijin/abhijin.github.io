@@ -5,6 +5,11 @@
 % PAGE
 %% \usepackage{fullpage}
 % FONTS
+% Define a helper macro to run shell commands and print the output
+\makeatletter
+\newcommand{\executecl}[1]{\@@input|"#1"}
+\makeatletter
+
 \usepackage{url} % enhanced version of computer modern
 \urlstyle{same}
 \usepackage{lmodern} % enhanced version of computer modern
@@ -15,7 +20,7 @@
 \usepackage{microtype} % some compression
 %%
 %% REFERENCING DOES NOT WORK WITH BIBENTRY PACKAGE
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage[colorlinks=true,pdfborder={0 0
 0},citecolor=magenta,linkcolor=magenta]{hyperref}
 \newcommand{\tuta}{\emph{T.~absoluta}}
@@ -163,9 +168,8 @@ Indian Institute of Science, Bangalore, India\\
 %% }
 
 \section{\textnormal{\textsc{Publications count}}}
-Journals: 33\\
-Conference proceedings: 56\\
-Workshops/posters/abstract: 14\\
+Journals: \executecl{grep -c bibentry journal.tex} \\
+Conference proceedings: \executecl{grep -c bibentry conference.tex} \\
 
 \section{\textnormal{\textsc{Grants summary}}}
 PI: USAID \$1,100,000; USDA \$400,000\\
