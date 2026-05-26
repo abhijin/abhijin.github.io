@@ -204,8 +204,11 @@ def row2html(row, file=None):
 
 def shorten_venue(venue):
     for k,v in VENUE_MAP.items():
-        if k in venue:
-            return v
+        try:
+            if k in venue:
+                 return v
+        except TypeError:
+            set_trace()
     return venue
 
 def authors(auths):
@@ -268,6 +271,7 @@ def df2bibentry(row):
 
 @cli.command()
 def db2cv():
+    # 1. just open all files for writing
     fd = {}
     for col in ['bib', 'preprint', 'journal', 'conference', 'workshop',
                 'selected', 'report', 'recent']:
@@ -276,8 +280,11 @@ def db2cv():
         else:
             fd[col] = open(f'{col}.tex', 'w')
 
+    # 2. create bib entries for journal, conference, workshop, preprint, report
     conn = sqlite3.connect(DB)
     df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
+    # a NaN/None problem being sorted out
+    df = df.astype(object).where(pd.notna(df), None)
     df = df.sort_values('year', ascending=False)
 
     df = df.apply(venue_type, axis=1)
