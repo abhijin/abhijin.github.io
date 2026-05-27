@@ -162,6 +162,8 @@ def rename_duplicates(series):
 def db2html():
     conn = sqlite3.connect(DB)
     df = pd.read_sql_query('SELECT * FROM bib WHERE ignore!=1', conn)
+    # a NaN/None problem being sorted out
+    df = df.astype(object).where(pd.notna(df), None)
     df = df.sort_values('year', ascending=False)
     with open(HTML, 'w') as f:
         f.write('''
@@ -207,7 +209,8 @@ def shorten_venue(venue):
         try:
             if k in venue:
                  return v
-        except TypeError:
+        except TypeError as err:
+            print(f'venue={venue}', err)
             set_trace()
     return venue
 
